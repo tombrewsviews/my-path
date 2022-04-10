@@ -1,21 +1,14 @@
-import logo from "./logo.svg";
+import avatar1 from "./images/avatar1.jpg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>My Product Lead Path</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-headline">
+        <p className="App-title-1">I'm Tom,</p>
+        <img src={avatar1} className="App-avatar" alt="avatar" />
+        <p className="App-title-2">a designer on a mission to make</p>
+      </div>
     </div>
   );
 }

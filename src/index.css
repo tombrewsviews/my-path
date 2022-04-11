@@ -53,11 +53,21 @@
 }
 
 body {
+  height: 100%;
+  background-color: #f2f2f2;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 p {

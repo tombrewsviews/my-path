@@ -4,37 +4,41 @@ import value from "./images/value.svg";
 import fight from "./images/fight.svg";
 import arrowLong from "./images/arrowLong.svg";
 import ButtonPrimary from "./components/buttonPrimary";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="App-content">
-        <div className="App-headline-wrapper">
-          <p className="App-headline">
-            I'm Tom,
-            <img src={avatar1} className="App-avatar" alt="avatar" />
-            {/* <span className="App-highlight"></span> */}
-            a designer on a mission to make <br /> a positive impact in the
-            world
-            <img src={world} className="App-world" alt="world" />I help <br />
-            product teams address burning problems <br />
-            and deliver value to customers
-            <img src={value} className="App-world" alt="value" />
-            <br />
-            <br />
-            This is a story of my continous fight against my weaknesess and
-            shortcomings
-            <img src={fight} className="App-world" alt="fight" />
-          </p>
-          <ButtonPrimary
-            onClick={() => console.log("You clicked on the pink circle!")}
-            margin="48px 0px 0px 0px"
-          />
-        </div>
+        <ScrollAnimation animateIn="fadeIn" duration={5}>
+          <div className="App-headline-wrapper">
+            <p className="App-headline">
+              I'm Tom,
+              <img src={avatar1} className="App-avatar" alt="avatar" />
+              {/* <span className="App-highlight"></span> */}
+              a designer on a mission to make <br /> a positive impact in the
+              world
+              <img src={world} className="App-world" alt="world" />I help <br />
+              product teams address burning problems <br />
+              and deliver value to customers
+              <img src={value} className="App-world" alt="value" />
+              <br />
+              <br />
+              This is a story of my continous fight against my weaknesess and
+              shortcomings
+              <img src={fight} className="App-world" alt="fight" />
+            </p>
+            <ButtonPrimary
+              onClick={() => console.log("You clicked on the pink circle!")}
+              margin="48px 0px 0px 0px"
+            />
+          </div>
+        </ScrollAnimation>
       </div>
       <div
-        style={{ position: "absolute", top: "10px", right: "12%", zIndex: 0 }}
+        style={{ position: "absolute", top: "10px", right: "12%", zIndex: "0" }}
       >
         <div className="App-year-1">20</div>
         <div className="App-year-2">22</div>

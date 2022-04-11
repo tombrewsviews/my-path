@@ -1,5 +1,6 @@
 import avatar1 from "./images/avatar1.jpg";
 import world from "./images/world.svg";
+import value from "./images/value.svg";
 import arrowLong from "./images/arrowLong.svg";
 import "./App.css";
 
@@ -10,9 +11,14 @@ function App() {
         <div className="App-headline-wrapper">
           <p className="App-headline">
             I'm Tom,
-            <img src={avatar1} className="App-avatar" alt="avatar" />a designer
-            on a mission to make <br /> a positive impact in the world
-            <img src={world} className="App-world" alt="world" />
+            <img src={avatar1} className="App-avatar" alt="avatar" />
+            <div className="App-highlight"></div>
+            a designer on a mission to make <br /> a positive impact in the
+            world
+            <img src={world} className="App-world" alt="world" />I help <br />
+            product teams address burning problems <br />
+            and deliver value to customers
+            <img src={value} className="App-world" alt="value" />
           </p>
         </div>
       </div>

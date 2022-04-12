@@ -8,7 +8,7 @@ const customStyles = {
     right: "auto",
     bottom: "auto",
     width: "80%",
-    height: "70%",
+    height: "80%",
     // marginRight: "-50%",
     borderRadius: "20px",
     transform: "translate(-50%, -50%)",
@@ -43,18 +43,14 @@ function ModalFull(props) {
         onAfterOpen={(e) => afterOpenModal(e)}
         style={customStyles}
         ariaHideApp={false}
+        onRequestClose={() => {
+          onModalClose();
+        }}
         shouldCloseOnOverlayClick={true}
         closeTimeoutMS={200}
       >
-        <h2>{props.dynData.title}</h2>
+        <div></div>
         <button onClick={(e) => onModalClose(e)}>close</button>
-        <div>
-          <ul>
-            {props.dynData.body.map((fr) => (
-              <li>{fr}</li>
-            ))}
-          </ul>
-        </div>
       </Modal>
     </div>
   );

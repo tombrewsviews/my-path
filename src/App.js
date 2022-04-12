@@ -11,10 +11,6 @@ import "animate.css/animate.compat.css";
 import "./App.css";
 
 function App() {
-  const modalData = {
-    title: "My Title From Parent",
-    body: ["Apple", "Ipple", "Opple", "Upple", "Epple"],
-  };
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openFromParent() {
@@ -33,7 +29,6 @@ function App() {
     <div className="App">
       <div style={{ zIndex: "10", position: "relative" }}>
         <ModalFull
-          dynData={modalData}
           IsModalOpened={modalIsOpen}
           onCloseModal={handleCloseModal}
           onAfterOpen={handleAfterOpen}

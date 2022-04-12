@@ -7,14 +7,20 @@ import ButtonPrimary from "./components/buttonPrimary";
 import ModalFull from "./components/modal";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
-import "./App.css";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Challenges from "./pages/Challenges";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/challenges/*" element={<Challenges />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

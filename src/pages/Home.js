@@ -7,7 +7,9 @@ import ButtonPrimary from "./../components/buttonPrimary";
 import ModalFull from "./../components/modal";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
+import { Link } from "react-router-dom";
 import "./../App.css";
+import Challenges from "./Challenges";
 
 export default function Home() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -54,7 +56,11 @@ export default function Home() {
               shortcomings
               <img src={fight} className="App-world" alt="fight" />
             </p>
-            <ButtonPrimary onClick={openFromParent} margin="48px 0px 0px 0px" />
+            <Link to="/challenges">
+              <ButtonPrimary margin="48px 0px 0px 0px">
+                My Three Impossible Challenges
+              </ButtonPrimary>
+            </Link>
           </div>
         </ScrollAnimation>
       </div>

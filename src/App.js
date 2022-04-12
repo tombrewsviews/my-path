@@ -35,7 +35,7 @@ function App() {
         />
       </div>
       <div className="App-content">
-        <ScrollAnimation animateIn="fadeIn" duration={5}>
+        <ScrollAnimation animateIn="fadeIn" duration={3}>
           <div className="App-headline-wrapper">
             <p className="App-headline">
               I'm Tom,

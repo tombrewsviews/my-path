@@ -6,14 +6,17 @@ const customStyles = {
     top: "50%",
     left: "50%",
     right: "auto",
-    width: "70%",
     bottom: "auto",
-    marginRight: "-50%",
+    width: "80%",
+    height: "70%",
+    // marginRight: "-50%",
+    borderRadius: "20px",
     transform: "translate(-50%, -50%)",
+    boxShadow: "0px 16px 32px rgba(62,103,251,0.3)",
   },
   overlay: {
-    backdropFilter: "blur(5px)",
-    backgroundColor: "rgba(253,255,255,0.3)",
+    backdropFilter: "blur(10px)",
+    backgroundColor: "rgba(115,168,255,0.5)",
     zIndex: "5000",
   },
 };
@@ -35,6 +38,8 @@ function ModalFull(props) {
         onAfterOpen={(e) => afterOpenModal(e)}
         style={customStyles}
         ariaHideApp={false}
+        shouldCloseOnOverlayClick={true}
+        closeTimeoutMS={200}
       >
         <h2>{props.dynData.title}</h2>
         <button onClick={(e) => onModalClose(e)}>close</button>

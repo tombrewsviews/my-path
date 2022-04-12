@@ -12,11 +12,16 @@ const customStyles = {
     // marginRight: "-50%",
     borderRadius: "20px",
     transform: "translate(-50%, -50%)",
-    boxShadow: "0px 16px 32px rgba(62,103,251,0.3)",
+    boxShadow: "0px 16px 32px rgba(109,23,153,0.1)",
+    backgroundColor: "rgba(255,255,255,1)",
+    border: "1px solid rgba(255, 255, 255, 0.3)",
   },
   overlay: {
     backdropFilter: "blur(10px)",
-    backgroundColor: "rgba(115,168,255,0.5)",
+    // backgroundColor: "rgba(109,23,153,0.4)",
+    background: "rgb(142,0,212)",
+    background:
+      "linear-gradient(0deg, rgba(109,23,153,0.4) 0%, rgba(101,0,98,0.4) 50%, rgba(255,0,206,0.2) 100%)",
     zIndex: "5000",
   },
 };

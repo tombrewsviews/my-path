@@ -11,7 +11,7 @@ import Growth from "./Growth";
 export default function Challenges() {
   return (
     <div>
-      <Link to="/">Home</Link>
+      <Link to="/my-path">Home</Link>
       <Link to="routines">Routines</Link>
       <Link to="processes">Processes</Link>
       <Link to="growth">Growth</Link>

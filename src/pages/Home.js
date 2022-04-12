@@ -56,7 +56,7 @@ export default function Home() {
               shortcomings
               <img src={fight} className="App-world" alt="fight" />
             </p>
-            <Link to="/challenges">
+            <Link to="/challenges/routines">
               <ButtonPrimary margin="48px 0px 0px 0px">
                 My Three Impossible Challenges
               </ButtonPrimary>

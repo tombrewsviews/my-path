@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-path/static/css/main.fdb3f2c0.css",
-    "main.js": "/my-path/static/js/main.4b3b24d4.js",
+    "main.css": "/my-path/static/css/main.1114634f.css",
+    "main.js": "/my-path/static/js/main.28ad2615.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/Poppins-Thin.ttf": "/my-path/static/media/Poppins-Thin.59ff6a729e30c99b478e.ttf",
     "static/media/Poppins-ExtraLight.ttf": "/my-path/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
@@ -15,13 +15,14 @@
     "static/media/world.svg": "/my-path/static/media/world.acb0cbc10bcdb968939058c5388863ad.svg",
     "static/media/value.svg": "/my-path/static/media/value.e90e25ed16759e4363102772ddca3f07.svg",
     "static/media/fight.svg": "/my-path/static/media/fight.32c8b8a0861ec69fd7f28219a2cf1bbb.svg",
+    "static/media/logout.svg": "/my-path/static/media/logout.dbccd5abe8583c35256f7a966f29cdf2.svg",
     "index.html": "/my-path/index.html",
-    "main.fdb3f2c0.css.map": "/my-path/static/css/main.fdb3f2c0.css.map",
-    "main.4b3b24d4.js.map": "/my-path/static/js/main.4b3b24d4.js.map",
+    "main.1114634f.css.map": "/my-path/static/css/main.1114634f.css.map",
+    "main.28ad2615.js.map": "/my-path/static/js/main.28ad2615.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdb3f2c0.css",
-    "static/js/main.4b3b24d4.js"
+    "static/css/main.1114634f.css",
+    "static/js/main.28ad2615.js"
   ]
 }

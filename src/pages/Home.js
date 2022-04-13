@@ -36,7 +36,7 @@ export default function Home() {
         />
       </div>
       <div className="App-content">
-        <ScrollAnimation animateIn="fadeIn" duration={3}>
+        <ScrollAnimation animateIn="fadeIn" duration={0.5}>
           <div className="App-headline-wrapper">
             <p className="App-headline">
               I'm Tom,

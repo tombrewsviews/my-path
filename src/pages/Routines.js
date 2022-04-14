@@ -6,10 +6,16 @@ import clock from "./../images/clock.jpg";
 
 export default function Routines() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        backgroundColor: "#FBE48E",
+      }}
+    >
       <div
         style={{
-          height: "800px",
+          height: "100vh",
           backgroundColor: "#1C1E27",
           display: "flex",
           flexDirection: "row",
@@ -52,8 +58,9 @@ export default function Routines() {
                 lineHeight: "1.7",
               }}
             >
-              Took me some time to figure out the importance of routines in my
-              life. It's me versus preceverence ever day and every hour.
+              It's incredibly hard to create a well balanced routine. It's even
+              harder to stick to it. My ability to precevere is challenged every
+              day.
             </p>
           </div>
           <img
@@ -67,21 +74,81 @@ export default function Routines() {
           />
         </div>
       </div>
-      <p style={{ alignSelf: "center", width: "1000px" }}>
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-        j;oawjfo;ajf
-      </p>
+      <div
+        style={{
+          alignSelf: "center",
+          width: "1000px",
+          paddingTop: "100px",
+          backgroundColor: "#FBE48E",
+        }}
+      >
+        <h1>Daily</h1>
+        <p
+          style={{
+            fontSize: "18px",
+            paddingTop: "20px",
+          }}
+        >
+          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
+          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
+          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
+          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
+          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
+          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajfweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+          j;oawjfo;ajfj;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajfweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
+          fojaw fojaw;of j;oawjfo;ajfj;oawjfo;ajfaweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajfweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
+          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
+        </p>
+      </div>
     </div>
   );
 }

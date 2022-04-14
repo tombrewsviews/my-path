@@ -7,7 +7,7 @@ import "./../App.css";
 import Routines from "./Routines";
 import Processes from "./Processes";
 import Growth from "./Growth";
-import logout from "./../images/logout_w.svg";
+import logout from "./../images/logout_g.svg";
 
 export default function Challenges() {
   return (
@@ -33,9 +33,9 @@ export default function Challenges() {
             borderRadius: "24px",
             marginLeft: "auto",
             marginRight: "auto",
-            backgroundColor: "rgba(19,21,26,0.5)",
+            backgroundColor: "rgba(19,21,26,0.3)",
             height: "48px",
-            backdropFilter: "blur(10px)",
+            backdropFilter: "blur(15px)",
           }}
         >
           <Link to="routines" style={{ textDecoration: "none" }}>
@@ -45,6 +45,7 @@ export default function Challenges() {
                 backgroundColor: "#434655",
                 color: "#fff",
                 borderRadius: "22px",
+                fontWeight: "600",
                 fontSize: "14px",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -60,6 +61,7 @@ export default function Challenges() {
                 backgroundColor: "transparent",
                 color: "#fff",
                 borderRadius: "22px",
+                fontWeight: "600",
                 fontSize: "14px",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -75,6 +77,7 @@ export default function Challenges() {
                 backgroundColor: "transparent",
                 color: "#fff",
                 borderRadius: "22px",
+                fontWeight: "600",
                 fontSize: "14px",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -96,7 +99,7 @@ export default function Challenges() {
         <Link to="/my-path">
           <img
             src={logout}
-            style={{ height: "48px", width: "48px", opacity: "0.3" }}
+            style={{ height: "48px", width: "48px" }}
             alt="back"
           />
         </Link>
@@ -107,14 +110,14 @@ export default function Challenges() {
           top: "80px",
           right: "-100px",
           zIndex: 3,
+          // opacity: "0.5",
         }}
       >
         <p
           style={{
             width: "20px",
             fontSize: "14px",
-            color: "rgba(255,255,255,0.3)",
-            fontFamily: "Poppins",
+            color: "#6A6E84",
             fontWeight: "700",
             lineHeight: "1",
             position: "absolute",
@@ -127,8 +130,7 @@ export default function Challenges() {
         <p
           style={{
             fontSize: "14px",
-            color: "rgba(255,255,255,0.3)",
-            fontFamily: "Poppins",
+            color: "#6A6E84",
             fontWeight: "700",
             lineHeight: "1",
             transform: "rotate(90deg)",

@@ -52,8 +52,8 @@ export default function Routines() {
                 lineHeight: "1.7",
               }}
             >
-              It's me versus preceverence ever day and ever hour. Took me some
-              time to figure out the importance of routines in my life.
+              Took me some time to figure out the importance of routines in my
+              life. It's me versus preceverence ever day and every hour.
             </p>
           </div>
           <img

@@ -33,18 +33,55 @@ export default function Challenges() {
             borderRadius: "24px",
             marginLeft: "auto",
             marginRight: "auto",
-            backgroundColor: "#13151A",
+            backgroundColor: "rgba(19,21,26,0.5)",
             height: "48px",
+            backdropFilter: "blur(10px)",
           }}
         >
           <Link to="routines" style={{ textDecoration: "none" }}>
-            Routines
+            <p
+              style={{
+                padding: "10px 24px",
+                backgroundColor: "#434655",
+                color: "#fff",
+                borderRadius: "22px",
+                fontSize: "14px",
+                marginLeft: "4px",
+                marginRight: "4px",
+              }}
+            >
+              Routines
+            </p>
           </Link>
           <Link to="processes" style={{ textDecoration: "none" }}>
-            Processes
+            <p
+              style={{
+                padding: "10px 24px",
+                backgroundColor: "transparent",
+                color: "#fff",
+                borderRadius: "22px",
+                fontSize: "14px",
+                marginLeft: "4px",
+                marginRight: "4px",
+              }}
+            >
+              Processes
+            </p>
           </Link>
           <Link to="growth" style={{ textDecoration: "none" }}>
-            Growth
+            <p
+              style={{
+                padding: "10px 24px",
+                backgroundColor: "transparent",
+                color: "#fff",
+                borderRadius: "22px",
+                fontSize: "14px",
+                marginLeft: "4px",
+                marginRight: "4px",
+              }}
+            >
+              Growth
+            </p>
           </Link>
         </div>
       </div>

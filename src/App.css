@@ -1,25 +1,27 @@
 .App {
-  flex: 1;
   display: flex;
-  height: 100%;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
 }
 
 .App-content {
-  width: 1000px;
+  /* background-color: red; */
+  width: 800px;
   z-index: 2;
-  position: relative;
+  /* position: relative; */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20vh;
 }
 
 .App-headline-wrapper {
-  padding-top: 20%;
-  padding-left: 10%;
 }
 
 .App-headline {
   line-height: 60px;
-  color: #1c1c1c;
+  color: #3a405d;
 }
 
 .App-avatar {
@@ -49,7 +51,8 @@
 }
 
 .App-year-1 {
-  font-size: 450px;
+  /* font-size: 450px; */
+  font-size: 50vh;
   color: #fff;
   font-family: "Poppins";
   font-weight: 900;
@@ -58,20 +61,21 @@
 }
 
 .App-year-2 {
-  font-size: 450px;
+  /* font-size: 450px; */
+  font-size: 50vh;
   color: #fff;
   font-family: "Poppins";
   font-weight: 900;
   transform: rotate(90deg);
   position: absolute;
   top: 260px;
-  right: 370px;
+  right: 25vw;
   opacity: 1;
 }
 
 .App-title-eng {
   font-size: 14px;
-  color: #1c1c1c;
+  color: #6e7699;
   font-family: "Poppins";
   font-weight: 800;
   transform: rotate(90deg);
@@ -80,7 +84,7 @@
 .App-title-jap {
   width: 20px;
   font-size: 14px;
-  color: #1c1c1c;
+  color: #6e7699;
   font-family: "Poppins";
   font-weight: 700;
   line-height: 1;

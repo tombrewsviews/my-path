@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "./../images/arrow.svg";
 
 interface Props {
   onClick: () => void;
@@ -7,20 +8,23 @@ interface Props {
 
 const ButtonPrimary: React.FC<Props> = ({ onClick, margin }) => {
   return (
-    <button
+    <a
       onClick={onClick}
       style={{
-        border: "1px solid #1c1c1c",
-        backgroundColor: "#f2f2f2",
+        border: "none",
+        backgroundColor: "#5E6896",
         borderRadius: "32px",
-        padding: "12px 16px 12px 16px",
+        padding: "12px 24px 12px 24px",
         children: "My Three Impossible Challenges",
         margin,
+        display: "inline-flex",
+        flexDirection: "row",
+        alignItems: "center",
       }}
     >
       <p
         style={{
-          color: "#1c1c1c",
+          color: "#fff",
           fontFamily: "Poppins",
           fontWeight: "500",
           fontSize: "14px",
@@ -28,7 +32,12 @@ const ButtonPrimary: React.FC<Props> = ({ onClick, margin }) => {
       >
         My Three Impossible Challenges
       </p>
-    </button>
+      <img
+        src={arrow}
+        style={{ width: "16px", height: "16px", marginLeft: "8px" }}
+        alt="arrow"
+      />
+    </a>
   );
 };
 

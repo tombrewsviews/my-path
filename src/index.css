@@ -53,8 +53,7 @@
 }
 
 body {
-  height: 100%;
-  background-color: #f2f2f2;
+  background-color: #f3f4f7;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -73,7 +72,6 @@ body {
 }
 
 html {
-  height: 100%;
 }
 
 p {

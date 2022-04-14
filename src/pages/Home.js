@@ -27,7 +27,7 @@ export default function Home() {
     console.log(event, data);
   }
   return (
-    <div>
+    <div style={{ display: "flex", flex: "1" }}>
       <div style={{ zIndex: "10", position: "relative" }}>
         <ModalFull
           IsModalOpened={modalIsOpen}
@@ -56,7 +56,7 @@ export default function Home() {
               shortcomings
               <img src={fight} className="App-world" alt="fight" />
             </p>
-            <Link to="/challenges/routines">
+            <Link to="/challenges/routines" style={{ textDecoration: "none" }}>
               <ButtonPrimary margin="48px 0px 0px 0px">
                 My Three Impossible Challenges
               </ButtonPrimary>
@@ -66,7 +66,12 @@ export default function Home() {
       </div>
 
       <div
-        style={{ position: "absolute", top: "10px", right: "12%", zIndex: "0" }}
+        style={{
+          position: "absolute",
+          top: "10px",
+          right: "15vw",
+          zIndex: "0",
+        }}
       >
         <div className="App-year-1">20</div>
         <div className="App-year-2">22</div>
@@ -76,7 +81,7 @@ export default function Home() {
           zIndex: 3,
           position: "absolute",
           top: "150px",
-          right: "32px",
+          right: "10px",
         }}
       >
         <p className="App-title-eng">My Product Lead Path</p>

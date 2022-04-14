@@ -6,7 +6,7 @@ import clock from "./../images/clock.jpg";
 
 export default function Routines() {
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <div
         style={{
           height: "800px",
@@ -17,46 +17,70 @@ export default function Routines() {
           justifyContent: "center",
         }}
       >
-        <h1 style={{ fontSize: "90px", color: "#fff" }}>Routines</h1>
-        <img
-          src={clock}
-          style={{ width: "550px", height: "auto", marginLeft: "30px" }}
-          alt="world"
-        />
+        <div
+          style={{
+            width: "1000px",
+            justifyContent: "space-between",
+            flexDirection: "row",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <p style={{ color: "#D9B531", fontWeight: "600" }}>ワン</p>
+            <p
+              style={{ color: "#D9B531", fontWeight: "600", fontSize: "18px" }}
+            >
+              Challenge One
+            </p>
+            <h1
+              style={{
+                fontSize: "90px",
+                color: "#fff",
+                marginTop: "20px",
+                marginLeft: "-5px",
+              }}
+            >
+              Routines
+            </h1>
+            <p
+              style={{
+                color: "#fff",
+                fontSize: "18px",
+                fontWeight: "400",
+                marginTop: "0px",
+                lineHeight: "1.7",
+              }}
+            >
+              It's me versus preceverence ever day and ever hour. Took me some
+              time to figure out the importance of routines in my life.
+            </p>
+          </div>
+          <img
+            src={clock}
+            style={{
+              width: "550px",
+              height: "auto",
+              marginTop: "50px",
+            }}
+            alt="world"
+          />
+        </div>
       </div>
-      <p>
+      <p style={{ alignSelf: "center", width: "1000px" }}>
         aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
         aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
         aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
         aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
         aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
-        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        <br />
+        aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
+        j;oawjfo;ajf
       </p>
     </div>
   );

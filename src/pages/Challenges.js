@@ -7,6 +7,7 @@ import "./../App.css";
 import Routines from "./Routines";
 import Processes from "./Processes";
 import Growth from "./Growth";
+import logout from "./../images/logout_w.svg";
 
 export default function Challenges() {
   return (
@@ -36,9 +37,15 @@ export default function Challenges() {
             height: "48px",
           }}
         >
-          <Link to="routines">Routines</Link>
-          <Link to="processes">Processes</Link>
-          <Link to="growth">Growth</Link>
+          <Link to="routines" style={{ textDecoration: "none" }}>
+            Routines
+          </Link>
+          <Link to="processes" style={{ textDecoration: "none" }}>
+            Processes
+          </Link>
+          <Link to="growth" style={{ textDecoration: "none" }}>
+            Growth
+          </Link>
         </div>
       </div>
       <div
@@ -49,7 +56,13 @@ export default function Challenges() {
           zIndex: 3,
         }}
       >
-        <Link to="/my-path">Home</Link>
+        <Link to="/my-path">
+          <img
+            src={logout}
+            style={{ height: "48px", width: "48px", opacity: "0.3" }}
+            alt="back"
+          />
+        </Link>
       </div>
       <div
         style={{

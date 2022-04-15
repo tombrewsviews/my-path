@@ -5,8 +5,8 @@ import value from "./../images/value.svg";
 import fight from "./../images/fight.svg";
 import ButtonPrimary from "./../components/buttonPrimary";
 import ModalFull from "./../components/modal";
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.compat.css";
+import AnimationOnScroll from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 import { Link } from "react-router-dom";
 import "./../App.css";
 import Challenges from "./Challenges";
@@ -36,7 +36,7 @@ export default function Home() {
         />
       </div>
       <div className="App-content">
-        <ScrollAnimation animateIn="fadeIn" duration={0.5}>
+        <AnimationOnScroll animateIn="fadeIn" duration={0.5}>
           <div className="App-headline-wrapper">
             <p className="App-headline">
               I'm Tom,
@@ -62,7 +62,7 @@ export default function Home() {
               </ButtonPrimary>
             </Link>
           </div>
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </div>
 
       <div

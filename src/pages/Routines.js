@@ -1,7 +1,7 @@
 import React from "react";
 import ModalFull from "./../components/modal";
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.compat.css";
+import AnimationOnScroll from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 import clock from "./../images/clock.jpg";
 
 export default function Routines() {
@@ -11,6 +11,7 @@ export default function Routines() {
         display: "flex",
         flexDirection: "column",
         backgroundColor: "#FBE48E",
+        zIndex: "-1",
       }}
     >
       <div
@@ -23,56 +24,69 @@ export default function Routines() {
           justifyContent: "center",
         }}
       >
-        <div
-          style={{
-            width: "1000px",
-            justifyContent: "space-between",
-            flexDirection: "row",
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <p style={{ color: "#D9B531", fontWeight: "600" }}>ワン</p>
-            <p
-              style={{ color: "#D9B531", fontWeight: "600", fontSize: "18px" }}
-            >
-              Challenge One
-            </p>
-            <h1
-              style={{
-                fontSize: "90px",
-                color: "#fff",
-                marginTop: "20px",
-                marginLeft: "-5px",
-              }}
-            >
-              Routines
-            </h1>
-            <p
-              style={{
-                color: "#fff",
-                fontSize: "18px",
-                fontWeight: "400",
-                marginTop: "0px",
-                lineHeight: "1.7",
-              }}
-            >
-              It's incredibly hard to create a well balanced routine. It's even
-              harder to stick to it. My ability to precevere is challenged every
-              day.
-            </p>
-          </div>
-          <img
-            src={clock}
+        <AnimationOnScroll animateIn="fadeIn" duration={0.5}>
+          <div
             style={{
-              width: "550px",
-              height: "auto",
-              marginTop: "50px",
+              width: "1000px",
+              justifyContent: "space-between",
+              flexDirection: "row",
+              display: "flex",
+              alignItems: "center",
             }}
-            alt="world"
-          />
-        </div>
+          >
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <p style={{ color: "#D9B531", fontWeight: "600" }}>ワン</p>
+              <p
+                style={{
+                  color: "#D9B531",
+                  fontWeight: "600",
+                  fontSize: "18px",
+                }}
+              >
+                Challenge One
+              </p>
+              <h1
+                style={{
+                  fontSize: "90px",
+                  color: "#fff",
+                  marginTop: "20px",
+                  marginLeft: "-5px",
+                }}
+              >
+                Routines
+              </h1>
+              <p
+                style={{
+                  color: "#fff",
+                  fontSize: "18px",
+                  fontWeight: "400",
+                  marginTop: "0px",
+                  lineHeight: "1.7",
+                }}
+              >
+                It's incredibly hard to create a well balanced routine. It's
+                even harder to stick to it. My ability to precevere is
+                challenged every day.
+              </p>
+            </div>
+            <AnimationOnScroll
+              animateIn="animate__shakeY"
+              duration={0.7}
+              animatePreScroll={false}
+              initiallyVisible={true}
+            >
+              <img
+                src={clock}
+                style={{
+                  width: "550px",
+                  height: "auto",
+                  marginTop: "50px",
+                }}
+                alt="world"
+              />
+            </AnimationOnScroll>
+          </div>
+        </AnimationOnScroll>
       </div>
       <div
         style={{

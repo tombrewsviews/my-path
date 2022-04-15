@@ -34,7 +34,13 @@ export default function Routines() {
               alignItems: "center",
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                zIndex: "100",
+              }}
+            >
               <p style={{ color: "#D9B531", fontWeight: "600" }}>ワン</p>
               <p
                 style={{
@@ -70,8 +76,7 @@ export default function Routines() {
               </p>
             </div>
             <AnimationOnScroll
-              animateIn="animate__shakeY"
-              duration={2}
+              animateIn="animate__tada"
               animatePreScroll={false}
               initiallyVisible={true}
             >

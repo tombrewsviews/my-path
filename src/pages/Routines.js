@@ -71,7 +71,7 @@ export default function Routines() {
             </div>
             <AnimationOnScroll
               animateIn="animate__shakeY"
-              duration={0.7}
+              duration={2}
               animatePreScroll={false}
               initiallyVisible={true}
             >

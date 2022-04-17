@@ -3,17 +3,40 @@ import ModalFull from "./../components/modal";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import clock from "./../images/clock.jpg";
+import { ButtonIcon } from "./../components/buttonIcon";
+import avatar1 from "./../images/avatar1.jpg";
 
 export default function Routines() {
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
+  function openFromParent() {
+    setIsOpen(true);
+  }
+  function handleCloseModal(event, data) {
+    console.log(event, data);
+    setIsOpen(false);
+  }
+
+  function handleAfterOpen(event, data) {
+    console.log(event, data);
+  }
   return (
     <div
       style={{
         display: "flex",
         flexDirection: "column",
         backgroundColor: "#FBE48E",
-        zIndex: "-1",
+        position: "relative",
+        zIndex: "1",
       }}
     >
+      <div style={{ zIndex: "10", position: "relative" }}>
+        <ModalFull
+          IsModalOpened={modalIsOpen}
+          onCloseModal={handleCloseModal}
+          onAfterOpen={handleAfterOpen}
+        />
+      </div>
       <div
         style={{
           height: "100vh",
@@ -38,7 +61,8 @@ export default function Routines() {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                zIndex: "100",
+                position: "relative",
+                zIndex: "1",
               }}
             >
               <p style={{ color: "#D9B531", fontWeight: "600" }}>ワン</p>
@@ -102,6 +126,14 @@ export default function Routines() {
         }}
       >
         <h1>My Daily Routines</h1>
+        <ButtonIcon
+          type="button"
+          buttonStyle="btn-no-padding"
+          buttonSize="btn-large"
+          onClick={openFromParent}
+        >
+          <img src={avatar1} className="App-avatar" alt="avatar" />
+        </ButtonIcon>
         <p
           style={{
             fontSize: "18px",

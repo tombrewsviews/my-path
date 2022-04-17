@@ -50,15 +50,36 @@ export default function Home() {
                 <img src={avatar1} className="App-avatar" alt="avatar" />
               </ButtonIcon>
               a designer on a mission to make a positive impact in the world
-              <img src={world} className="App-world" alt="world" />I help
-              product teams address burning problems and deliver value to
+              <ButtonIcon
+                type="button"
+                buttonStyle="btn-no-padding"
+                buttonSize="btn-large"
+                onClick={openFromParent}
+              >
+                <img src={world} className="App-world" alt="world" />
+              </ButtonIcon>
+              I help product teams address burning problems and deliver value to
               customers
-              <img src={value} className="App-world" alt="value" />
+              <ButtonIcon
+                type="button"
+                buttonStyle="btn-no-padding"
+                buttonSize="btn-large"
+                onClick={openFromParent}
+              >
+                <img src={value} className="App-world" alt="value" />
+              </ButtonIcon>
               <br />
               <br />
               This is a story of my continous fight against my weaknesess and
               shortcomings
-              <img src={fight} className="App-world" alt="fight" />
+              <ButtonIcon
+                type="button"
+                buttonStyle="btn-no-padding"
+                buttonSize="btn-large"
+                onClick={openFromParent}
+              >
+                <img src={fight} className="App-world" alt="fight" />
+              </ButtonIcon>
             </p>
             <Link to="/challenges/routines" style={{ textDecoration: "none" }}>
               <ButtonPrimary margin="48px 0px 0px 0px">

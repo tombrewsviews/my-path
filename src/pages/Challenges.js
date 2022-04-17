@@ -23,6 +23,7 @@ export default function Challenges() {
           left: "0px",
           right: "0px",
           float: "clear",
+          zIndex: "3",
         }}
       >
         <div

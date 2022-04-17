@@ -10,6 +10,7 @@ import "animate.css/animate.min.css";
 import { Link } from "react-router-dom";
 import "./../App.css";
 import Challenges from "./Challenges";
+import { ButtonIcon } from "./../components/buttonIcon";
 
 export default function Home() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -40,15 +41,18 @@ export default function Home() {
           <div className="App-headline-wrapper">
             <p className="App-headline">
               I'm Tom,
-              <a onClick={openFromParent}>
+              <ButtonIcon
+                type="button"
+                buttonStyle="btn-no-padding"
+                buttonSize="btn-large"
+                onClick={openFromParent}
+              >
                 <img src={avatar1} className="App-avatar" alt="avatar" />
-              </a>
-              {/* <span className="App-highlight"></span> */}
-              a designer on a mission to make <br /> a positive impact in the
-              world
-              <img src={world} className="App-world" alt="world" />I help <br />
-              product teams address burning problems <br />
-              and deliver value to customers
+              </ButtonIcon>
+              a designer on a mission to make a positive impact in the world
+              <img src={world} className="App-world" alt="world" />I help
+              product teams address burning problems and deliver value to
+              customers
               <img src={value} className="App-world" alt="value" />
               <br />
               <br />

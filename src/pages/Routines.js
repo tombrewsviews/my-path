@@ -101,7 +101,7 @@ export default function Routines() {
           backgroundColor: "#FBE48E",
         }}
       >
-        <h1>Daily</h1>
+        <h1>My Daily Routines</h1>
         <p
           style={{
             fontSize: "18px",

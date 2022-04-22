@@ -135,7 +135,7 @@ export default function Routines() {
         >
           <img src={avatar1} className="App-avatar" alt="avatar" />
         </ButtonIcon> */}
-        <CardSection3TextRight></CardSection3TextRight>
+        <CardSection3TextRight text="Section text goes here written from the place of use"></CardSection3TextRight>
         <p
           style={{
             fontSize: "18px",

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function cardSection3TextRight(type) {
+export default function cardSection3TextRight(props) {
   return (
     <div
       style={{
@@ -42,9 +42,7 @@ export default function cardSection3TextRight(type) {
           marginLeft: "32px",
         }}
       >
-        Section text goes here with some stuff about routines and why they are
-        important. That goes for few lines and couple of sentences, maybe up to
-        four in total.
+        {props.text}
       </p>
     </div>
   );

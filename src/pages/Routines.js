@@ -4,6 +4,7 @@ import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import clock from "./../images/clock.jpg";
 import { ButtonIcon } from "./../components/buttonIcon";
+import CardSection3TextRight from "./../components/cardSection3TextRight";
 import avatar1 from "./../images/avatar1.jpg";
 
 export default function Routines() {
@@ -25,7 +26,7 @@ export default function Routines() {
       style={{
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#FBE48E",
+        backgroundColor: "#EBD78D",
         position: "relative",
         zIndex: "1",
       }}
@@ -122,18 +123,19 @@ export default function Routines() {
           alignSelf: "center",
           width: "1000px",
           paddingTop: "100px",
-          backgroundColor: "#FBE48E",
+          backgroundColor: "#EBD78D",
         }}
       >
         <h1>My Daily Routines</h1>
-        <ButtonIcon
+        {/* <ButtonIcon
           type="button"
           buttonStyle="btn-no-padding"
           buttonSize="btn-large"
           onClick={openFromParent}
         >
           <img src={avatar1} className="App-avatar" alt="avatar" />
-        </ButtonIcon>
+        </ButtonIcon> */}
+        <CardSection3TextRight></CardSection3TextRight>
         <p
           style={{
             fontSize: "18px",

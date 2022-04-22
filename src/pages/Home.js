@@ -9,7 +9,6 @@ import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import { Link } from "react-router-dom";
 import "./../App.css";
-import Challenges from "./Challenges";
 import { ButtonIcon } from "./../components/buttonIcon";
 
 export default function Home() {

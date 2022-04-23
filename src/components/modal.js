@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Modal from "react-modal";
 import avatar1 from "./../images/avatar1.jpg";
 import world from "./../images/world.svg";
@@ -34,6 +34,14 @@ const customStyles = {
       "-webkit-linear-gradient(90deg, rgba(109,23,153,0.4) 0%, rgba(101,0,98,0.4) 50%, rgba(255,0,206,0.2) 100%)",
     zIndex: "5000",
   },
+  buttonMenu: {
+    cursor: "pointer",
+    background: "transparent",
+    color: "#0000ff",
+    border: "none",
+    margin: "0",
+    padding: "0",
+  },
 };
 
 function ModalFull(props) {
@@ -45,6 +53,12 @@ function ModalFull(props) {
     let data = { name: "example", type: "closed from child" };
     props.onCloseModal(event, data);
   }
+
+  const oneRef = useRef(null);
+  const twoRef = useRef(null);
+
+  const goToOne = () => oneRef.current.scrollIntoView({ behavor: "smooth" });
+  const goToTwo = () => twoRef.current.scrollIntoView({ behavor: "smooth" });
 
   return (
     <div>
@@ -91,16 +105,23 @@ function ModalFull(props) {
                 alignItems: "center",
               }}
             >
-              <img
-                src={world}
-                style={{ height: "42px", width: "42px" }}
-                alt="avatar"
-              />
-              <img
-                src={value}
-                style={{ height: "38px", width: "38px" }}
-                alt="avatar"
-              />
+              <button style={customStyles.buttonMenu} onClick={goToOne}>
+                <img
+                  src={world}
+                  style={{ height: "42px", width: "42px" }}
+                  alt="avatar"
+                />
+              </button>
+              <button
+                style={customStyles.buttonMenu}
+                onClick={() => goToTwo(2)}
+              >
+                <img
+                  src={value}
+                  style={{ height: "38px", width: "38px" }}
+                  alt="avatar"
+                />
+              </button>
               <img
                 src={fight}
                 style={{ height: "38px", width: "38px" }}
@@ -142,14 +163,47 @@ function ModalFull(props) {
                 display: "flex",
                 flex: "1",
                 width: "100%",
-                flexDirection: "row",
+                flexDirection: "column",
                 paddingLeft: "32px",
                 paddingRight: "32px",
                 paddingTop: "32px",
                 paddingBottom: "32px",
+                overflowY: "auto",
+                scrollBehavior: "smooth",
               }}
             >
-              Content
+              <section ref={oneRef}>
+                <p>
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef oiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                </p>
+              </section>
+              <section ref={twoRef}>
+                <p>YYYYYYYYYoiawjefiojaweoi joawejf oiajwef ioawjef oawjef</p>
+              </section>
             </div>
           </div>
         </div>

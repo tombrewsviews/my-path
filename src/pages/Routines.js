@@ -5,7 +5,7 @@ import "animate.css/animate.min.css";
 import clock from "./../images/clock.jpg";
 import { ButtonIcon } from "./../components/buttonIcon";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
-import avatar1 from "./../images/avatar1.jpg";
+import daily1 from "./../images/daily1.svg";
 
 export default function Routines() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -26,7 +26,7 @@ export default function Routines() {
       style={{
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#EBD78D",
+        backgroundColor: "#F8E088",
         position: "relative",
         zIndex: "1",
       }}
@@ -123,19 +123,15 @@ export default function Routines() {
           alignSelf: "center",
           width: "1000px",
           paddingTop: "100px",
-          backgroundColor: "#EBD78D",
+          backgroundColor: "#F8E088",
         }}
       >
         <h1>My Daily Routines</h1>
-        {/* <ButtonIcon
-          type="button"
-          buttonStyle="btn-no-padding"
-          buttonSize="btn-large"
-          onClick={openFromParent}
-        >
-          <img src={avatar1} className="App-avatar" alt="avatar" />
-        </ButtonIcon> */}
-        <CardSection3TextRight text="Section text goes here written from the place of use"></CardSection3TextRight>
+
+        <CardSection3TextRight
+          imgOne={daily1}
+          text="Section text goes here written from the place of use"
+        ></CardSection3TextRight>
         <p
           style={{
             fontSize: "18px",

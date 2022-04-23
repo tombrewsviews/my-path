@@ -17,10 +17,11 @@ export default function cardSection3TextRight(props) {
           flexDirection: "column",
           backgroundColor: "#fff",
           borderRadius: "24px",
-          boxShadow: "0px 8px 52px #EACC61",
+          boxShadow: "0px 8px 32px #E1BC33",
+          overflow: "hidden",
         }}
       >
-        one
+        <img src={props.imgOne} />
       </div>
       <div
         style={{
@@ -30,7 +31,7 @@ export default function cardSection3TextRight(props) {
           backgroundColor: "#fff",
           borderRadius: "24px",
           marginLeft: "32px",
-          boxShadow: "0px 8px 52px #EACC61",
+          boxShadow: "0px 8px 32px #E1BC33",
         }}
       >
         two
@@ -40,6 +41,7 @@ export default function cardSection3TextRight(props) {
           display: "flex",
           flex: "1",
           marginLeft: "32px",
+          fontSize: "18px",
         }}
       >
         {props.text}

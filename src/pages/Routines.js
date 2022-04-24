@@ -5,7 +5,8 @@ import "animate.css/animate.min.css";
 import clock from "./../images/clock.jpg";
 import { ButtonIcon } from "./../components/buttonIcon";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
-import daily1 from "./../images/daily1.svg";
+import daily1 from "./../images/daily1-01.svg";
+import daily2 from "./../images/daily2-01.svg";
 
 export default function Routines() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -126,77 +127,18 @@ export default function Routines() {
           backgroundColor: "#F8E088",
         }}
       >
-        <h1>My Daily Routines</h1>
-
+        <h1>Daily Routines</h1>
         <CardSection3TextRight
           imgOne={daily1}
+          imgTwo={daily2}
           text="Section text goes here written from the place of use"
         ></CardSection3TextRight>
-        <p
-          style={{
-            fontSize: "18px",
-            paddingTop: "20px",
-          }}
-        >
-          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-          aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajfweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw fojaw fojaw;of
-          j;oawjfo;ajfj;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajfweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf ;oawj o;ajw
-          fojaw fojaw;of j;oawjfo;ajfj;oawjfo;ajfaweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajfweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajfaweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf aweoijf j waejif oawjf ;oawjf
-          ;oawj o;ajw fojaw fojaw;of j;oawjfo;ajf
-        </p>
+        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
+        <CardSection3TextRight
+          imgOne={daily1}
+          imgTwo={daily2}
+          text="Section text goes here written from the place of use"
+        ></CardSection3TextRight>
       </div>
     </div>
   );

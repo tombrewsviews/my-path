@@ -17,7 +17,7 @@ export default function cardSection3TextRight(props) {
           flexDirection: "column",
           backgroundColor: "#fff",
           borderRadius: "24px",
-          boxShadow: "0px 8px 32px #E1BC33",
+          boxShadow: "0px 8px 32px #F4CF47",
           overflow: "hidden",
         }}
       >
@@ -31,10 +31,10 @@ export default function cardSection3TextRight(props) {
           backgroundColor: "#fff",
           borderRadius: "24px",
           marginLeft: "32px",
-          boxShadow: "0px 8px 32px #E1BC33",
+          boxShadow: "0px 8px 32px #F4CF47",
         }}
       >
-        two
+        <img src={props.imgTwo} />
       </div>
       <p
         style={{

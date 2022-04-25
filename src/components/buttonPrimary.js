@@ -6,7 +6,7 @@ interface Props {
   margin: string;
 }
 
-const ButtonPrimary: React.FC<Props> = ({ onClick, margin }) => {
+const ButtonPrimary: React.FC<Props> = ({ onClick, margin, text }) => {
   return (
     <a
       onClick={onClick}
@@ -30,7 +30,7 @@ const ButtonPrimary: React.FC<Props> = ({ onClick, margin }) => {
           fontSize: "14px",
         }}
       >
-        My Three Impossible Challenges
+        {text}
       </p>
       <img
         src={arrow}

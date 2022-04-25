@@ -96,9 +96,10 @@ export default function Routines() {
                   lineHeight: "1.7",
                 }}
               >
-                It's incredibly hard to create a well balanced routine. It's
-                even harder to stick to it. My ability to precevere is
-                challenged every day.
+                I challenge myself to grow, learn, and get things done every day
+                with the help of a few well-balanced routines. I use routines to
+                stay in touch with my team and define the long-term purpose of
+                my work.
               </p>
             </div>
             <AnimationOnScroll
@@ -128,12 +129,16 @@ export default function Routines() {
         }}
       >
         <h1>Daily Routines</h1>
-        <CardSection3TextRight
-          imgOne={daily1}
-          imgTwo={daily2}
-          text="Section text goes here written from the place of use"
-        ></CardSection3TextRight>
-        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
+        <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
+          <p style={{ fontSize: "18px" }}>
+            Daily routines are the hardest to stick to successfully in the long
+            term, but the progress starts here, every morning, every coffee
+            break, and focus time. <br />
+            <br />
+            Now, every morning, every coffee break
+          </p>
+        </CardSection3TextRight>
+        <h1 style={{ marginTop: "100px" }}>Monthly Routines</h1>
         <CardSection3TextRight
           imgOne={daily1}
           imgTwo={daily2}

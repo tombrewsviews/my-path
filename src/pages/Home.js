@@ -81,9 +81,10 @@ export default function Home() {
               </ButtonIcon>
             </p>
             <Link to="/challenges/routines" style={{ textDecoration: "none" }}>
-              <ButtonPrimary margin="48px 0px 0px 0px">
-                My Three Impossible Challenges
-              </ButtonPrimary>
+              <ButtonPrimary
+                margin="48px 0px 0px 0px"
+                text="My Everyday Challenges"
+              />
             </Link>
           </div>
         </AnimationOnScroll>

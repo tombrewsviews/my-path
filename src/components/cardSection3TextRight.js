@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function cardSection3TextRight(props) {
+export default function cardSection3TextRight({ children, imgOne, imgTwo }) {
   return (
     <div
       style={{
@@ -21,7 +21,7 @@ export default function cardSection3TextRight(props) {
           overflow: "hidden",
         }}
       >
-        <img src={props.imgOne} />
+        <img src={imgOne} />
       </div>
       <div
         style={{
@@ -34,18 +34,11 @@ export default function cardSection3TextRight(props) {
           boxShadow: "0px 8px 32px #F4CF47",
         }}
       >
-        <img src={props.imgTwo} />
+        <img src={imgTwo} />
       </div>
-      <p
-        style={{
-          display: "flex",
-          flex: "1",
-          marginLeft: "32px",
-          fontSize: "18px",
-        }}
-      >
-        {props.text}
-      </p>
+      <div style={{ display: "flex", flex: "1", marginLeft: "32px" }}>
+        {children}
+      </div>
     </div>
   );
 }

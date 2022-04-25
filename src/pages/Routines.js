@@ -3,10 +3,11 @@ import ModalFull from "./../components/modal";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import clock from "./../images/clock.jpg";
-import { ButtonIcon } from "./../components/buttonIcon";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
+import CardSection2TextRight from "./../components/cardSection2TextRight";
 import daily1 from "./../images/daily1-01.svg";
 import daily2 from "./../images/daily2-01.svg";
+import weekly from "./../images/weekly-01.svg";
 
 export default function Routines() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -131,19 +132,28 @@ export default function Routines() {
         <h1>Daily Routines</h1>
         <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
           <p style={{ fontSize: "18px" }}>
-            Daily routines are the hardest to stick to successfully in the long
-            term, but the progress starts here, every morning, every coffee
-            break, and focus time. <br />
+            Daily routines are the hardest to stick with successfully, but the
+            progress starts here, every morning and every focus time. <br />
+            <br />I wasn't always into finding balance through routines. <br />
             <br />
-            Now, every morning, every coffee break
+            My creative and curious nature was an obstacle in the past. <br />
+            <br />
+            I've noticed a positive productivity change since I've developed my
+            routines templates and started applying them depending on the day.
           </p>
         </CardSection3TextRight>
-        <h1 style={{ marginTop: "100px" }}>Monthly Routines</h1>
-        <CardSection3TextRight
-          imgOne={daily1}
-          imgTwo={daily2}
+        <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
+        <CardSection2TextRight
+          imgOne={weekly}
           text="Section text goes here written from the place of use"
-        ></CardSection3TextRight>
+        >
+          <p style={{ fontSize: "18px" }}>
+            Daily routines are the hardest to stick with successfully, but the
+            progress starts here, every morning and every focus time. <br />
+            <br />I wasn't always into finding balance through routines. <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
       </div>
     </div>
   );

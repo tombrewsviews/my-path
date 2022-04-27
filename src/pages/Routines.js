@@ -133,20 +133,36 @@ export default function Routines() {
         <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
           <p style={{ fontSize: "18px" }}>
             Daily routines are the hardest to stick with successfully, but the
-            progress starts here, every morning and every focus time. <br />
+            progress starts every morning repeatedly. <br />
             <br />I wasn't always into finding balance through routines. <br />
             <br />
             My creative and curious nature was an obstacle in the past. <br />
             <br />
             I've noticed a positive productivity change since I've developed my
-            routines templates and started applying them depending on the day.
+            routines templates (on the left, working day; on the right, break
+            day) and started applying them depending on the day.
           </p>
         </CardSection3TextRight>
         <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
-        <CardSection2TextRight
-          imgOne={weekly}
-          text="Section text goes here written from the place of use"
-        >
+        <CardSection2TextRight imgOne={weekly}>
+          <p style={{ fontSize: "18px" }}>
+            Daily routines are the hardest to stick with successfully, but the
+            progress starts here, every morning and every focus time. <br />
+            <br />I wasn't always into finding balance through routines. <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <h1 style={{ marginTop: "100px" }}>Monthly Routines</h1>
+        <CardSection2TextRight imgOne={weekly}>
+          <p style={{ fontSize: "18px" }}>
+            Daily routines are the hardest to stick with successfully, but the
+            progress starts here, every morning and every focus time. <br />
+            <br />I wasn't always into finding balance through routines. <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <h1 style={{ marginTop: "100px" }}>Annual Routines</h1>
+        <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
             Daily routines are the hardest to stick with successfully, but the
             progress starts here, every morning and every focus time. <br />

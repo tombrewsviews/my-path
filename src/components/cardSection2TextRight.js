@@ -1,4 +1,6 @@
 import React from "react";
+import AnimationOnScroll from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 export default function cardSection2TextRight({ children, imgOne }) {
   return (
@@ -10,23 +12,40 @@ export default function cardSection2TextRight({ children, imgOne }) {
         marginTop: "48px",
       }}
     >
-      <div
-        style={{
-          display: "flex",
-          flex: "2.2",
-          flexDirection: "column",
-          backgroundColor: "#fff",
-          borderRadius: "24px",
-          boxShadow: "0px 8px 32px #F4CF47",
-          overflow: "hidden",
-          padding: "16px",
-        }}
+      <AnimationOnScroll animateIn="fadeInLeft" duration="0.5">
+        <div
+          style={{
+            display: "flex",
+            flex: "3",
+            width: "700px",
+            height: "auto",
+            flexDirection: "column",
+            backgroundColor: "#fff",
+            borderRadius: "24px",
+            boxShadow: "0px 8px 32px #F4CF47",
+            overflow: "hidden",
+            padding: "16px",
+          }}
+        >
+          <img src={imgOne} alt="" />
+        </div>
+      </AnimationOnScroll>
+      <AnimationOnScroll
+        animateIn="fadeIn"
+        animateIn="fadeInRight"
+        duration="1"
       >
-        <img src={imgOne} alt="" />
-      </div>
-      <div style={{ display: "flex", flex: "1", marginLeft: "64px" }}>
-        {children}
-      </div>
+        <div
+          style={{
+            // display: "flex",
+            // flex: "1",
+            marginLeft: "64px",
+            // width: "250px",
+          }}
+        >
+          {children}
+        </div>
+      </AnimationOnScroll>
     </div>
   );
 }

@@ -1,0 +1,4 @@
+
+Animation Framework - AnimationOnScroll
+https://animate.style/
+https://www.npmjs.com/package/react-animation-on-scroll

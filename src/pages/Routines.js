@@ -8,6 +8,8 @@ import CardSection2TextRight from "./../components/cardSection2TextRight";
 import daily1 from "./../images/daily1-01.svg";
 import daily2 from "./../images/daily2-01.svg";
 import weekly from "./../images/weekly-01.svg";
+import quaterly1 from "./../images/quaterly-okrs.svg";
+import quaterly2 from "./../images/quaterly-thinking.svg";
 
 export default function Routines() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -146,22 +148,32 @@ export default function Routines() {
         <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
         <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
-            Daily routines are the hardest to stick with successfully, but the
-            progress starts here, every morning and every focus time. <br />
-            <br />I wasn't always into finding balance through routines. <br />
-            <br />
+            I keep in touch with my team weekly and monthly. I tend to avoid
+            recurring calls as those reduce the engagement and kill the sense of
+            relationship over time. I make myself available to my team and make
+            sure they know they can reach out at any time. I use asynchronous
+            check-in software, like Popwork, to create a feeling of cadence and
+            make sure to ask essential questions.
           </p>
         </CardSection2TextRight>
-        <h1 style={{ marginTop: "100px" }}>Monthly Routines</h1>
-        <CardSection2TextRight imgOne={weekly}>
+        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
+        <CardSection2TextRight imgOne={quaterly1}>
           <p style={{ fontSize: "18px" }}>
-            Daily routines are the hardest to stick with successfully, but the
-            progress starts here, every morning and every focus time. <br />
-            <br />I wasn't always into finding balance through routines. <br />
+            When I lead a team of designers I keep in touch on a weekly and
+            monthly basis.
+            <br />
             <br />
           </p>
         </CardSection2TextRight>
-        <h1 style={{ marginTop: "100px" }}>Annual Routines</h1>
+        <CardSection2TextRight imgOne={quaterly2}>
+          <p style={{ fontSize: "18px" }}>
+            When I lead a team of designers I keep in touch on a weekly and
+            monthly basis.
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <h1 style={{ marginTop: "100px" }}>All Year Round Routines</h1>
         <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
             Daily routines are the hardest to stick with successfully, but the

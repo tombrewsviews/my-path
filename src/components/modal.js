@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Modal from "react-modal";
 import avatar1 from "./../images/avatar1.jpg";
 import world from "./../images/world.svg";
@@ -42,6 +42,14 @@ const customStyles = {
     margin: "0",
     padding: "0",
   },
+  buttonMenuActive: {
+    cursor: "pointer",
+    background: "transparent",
+    color: "#0000ff",
+    border: "1px solid red",
+    margin: "0",
+    padding: "0",
+  },
 };
 
 function ModalFull(props) {
@@ -56,9 +64,30 @@ function ModalFull(props) {
 
   const oneRef = useRef(null);
   const twoRef = useRef(null);
+  const threeRef = useRef(null);
+  const [isActiveOne, setActiveOne] = useState(false);
+  const [isActiveTwo, setActiveTwo] = useState(false);
+  const [isActiveThree, setActiveThree] = useState(false);
 
-  const goToOne = () => oneRef.current.scrollIntoView({ behavor: "smooth" });
-  const goToTwo = () => twoRef.current.scrollIntoView({ behavor: "smooth" });
+  const goToOne = () => {
+    setActiveOne(true);
+    oneRef.current.scrollIntoView({ behavor: "smooth" });
+    setActiveTwo(false);
+    setActiveThree(false);
+  };
+  const goToTwo = () => {
+    setActiveTwo(true);
+    twoRef.current.scrollIntoView({ behavor: "smooth" });
+    setActiveOne(false);
+    setActiveThree(false);
+  };
+
+  const goToThree = () => {
+    setActiveThree(true);
+    threeRef.current.scrollIntoView({ behavor: "smooth" });
+    setActiveOne(false);
+    setActiveTwo(false);
+  };
 
   return (
     <div>
@@ -105,7 +134,14 @@ function ModalFull(props) {
                 alignItems: "center",
               }}
             >
-              <button style={customStyles.buttonMenu} onClick={goToOne}>
+              <button
+                style={
+                  isActiveOne
+                    ? customStyles.buttonMenuActive
+                    : customStyles.buttonMenu
+                }
+                onClick={goToOne}
+              >
                 <img
                   src={world}
                   style={{ height: "42px", width: "42px" }}
@@ -113,8 +149,12 @@ function ModalFull(props) {
                 />
               </button>
               <button
-                style={customStyles.buttonMenu}
-                onClick={() => goToTwo(2)}
+                style={
+                  isActiveTwo
+                    ? customStyles.buttonMenuActive
+                    : customStyles.buttonMenu
+                }
+                onClick={goToTwo}
               >
                 <img
                   src={value}
@@ -122,11 +162,20 @@ function ModalFull(props) {
                   alt="avatar"
                 />
               </button>
-              <img
-                src={fight}
-                style={{ height: "38px", width: "38px" }}
-                alt="avatar"
-              />
+              <button
+                style={
+                  isActiveThree
+                    ? customStyles.buttonMenuActive
+                    : customStyles.buttonMenu
+                }
+                onClick={goToThree}
+              >
+                <img
+                  src={fight}
+                  style={{ height: "38px", width: "38px" }}
+                  alt="avatar"
+                />
+              </button>
             </div>
             <a onClick={(e) => onModalClose(e)}>
               <img
@@ -202,7 +251,51 @@ function ModalFull(props) {
                 </p>
               </section>
               <section ref={twoRef}>
-                <p>YYYYYYYYYoiawjefiojaweoi joawejf oiajwef ioawjef oawjef</p>
+                <p>
+                  YYYYYYYYYoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                </p>
+              </section>
+              <section ref={threeRef}>
+                <p>
+                  aaaaaaaaaaaaaaaaaaaYYYYYYYYYoiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
+                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
+                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
+                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
+                  ioawjef oawjef
+                </p>
               </section>
             </div>
           </div>

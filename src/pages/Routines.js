@@ -99,9 +99,9 @@ export default function Routines() {
                   lineHeight: "1.7",
                 }}
               >
-                I challenge myself to get things done every day with the help of
-                a few well-balanced routines. I use routines to stay in touch
-                with my team and execute the long-term purpose of my work.
+                Well-balanced routines help me get things done every day. I use
+                routines to execute long and short-term goals, stay in touch
+                with my team, and keep motivation flowing.
               </p>
             </div>
             <AnimationOnScroll

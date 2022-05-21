@@ -99,9 +99,9 @@ export default function Processes() {
                   lineHeight: "1.7",
                 }}
               >
-                I challenge myself by stepping out of my comfort zone as often
-                as possible. Continous change and growth have been the most
-                vital driver of my achievements and professional transformation.
+                The creative and rebellious voice in me always wants to reinvent
+                the status quo, but well-defined processes became a steady
+                foundation for my team and me.
               </p>
             </div>
             <AnimationOnScroll

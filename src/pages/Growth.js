@@ -18,12 +18,12 @@ export default function Growth() {
     setIsOpen(true);
   }
   function handleCloseModal(event, data) {
-    console.log(event, data);
+    // console.log(event, data);
     setIsOpen(false);
   }
 
   function handleAfterOpen(event, data) {
-    console.log(event, data);
+    // console.log(event, data);
   }
   return (
     <div

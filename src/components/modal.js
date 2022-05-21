@@ -38,17 +38,25 @@ const customStyles = {
     cursor: "pointer",
     background: "transparent",
     color: "#0000ff",
-    border: "none",
+    borderRightWidth: "3px",
+    borderRightStyle: "solid",
+    borderRightColor: "white",
+    borderLeft: "3px solid white",
     margin: "0",
-    padding: "0",
+    width: "100px",
+    height: "38px",
   },
   buttonMenuActive: {
     cursor: "pointer",
     background: "transparent",
     color: "#0000ff",
-    border: "1px solid red",
+    borderRightWidth: "3px",
+    borderRightStyle: "solid",
+    borderRightColor: "#AD5AC1",
+    borderLeft: "3px solid white",
     margin: "0",
-    padding: "0",
+    width: "100px",
+    height: "38px",
   },
 };
 
@@ -65,7 +73,7 @@ function ModalFull(props) {
   const oneRef = useRef(null);
   const twoRef = useRef(null);
   const threeRef = useRef(null);
-  const [isActiveOne, setActiveOne] = useState(false);
+  const [isActiveOne, setActiveOne] = useState(true);
   const [isActiveTwo, setActiveTwo] = useState(false);
   const [isActiveThree, setActiveThree] = useState(false);
 
@@ -144,7 +152,7 @@ function ModalFull(props) {
               >
                 <img
                   src={world}
-                  style={{ height: "42px", width: "42px" }}
+                  style={{ height: "38px", width: "38px" }}
                   alt="avatar"
                 />
               </button>

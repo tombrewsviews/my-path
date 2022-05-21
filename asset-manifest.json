@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/my-path/static/css/main.c6258d62.css",
-    "main.js": "/my-path/static/js/main.62faf58c.js",
+    "main.js": "/my-path/static/js/main.c5b0e81a.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
+    "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/Poppins-Thin.ttf": "/my-path/static/media/Poppins-Thin.59ff6a729e30c99b478e.ttf",
     "static/media/Poppins-ExtraLight.ttf": "/my-path/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
     "static/media/Poppins-Light.ttf": "/my-path/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -15,7 +16,6 @@
     "static/media/weekly-01.svg": "/my-path/static/media/weekly-01.e81c1a99831463d2f006207b63a06fde.svg",
     "static/media/quaterly-okrs.svg": "/my-path/static/media/quaterly-okrs.e6a805831884d806036a26c642273cf7.svg",
     "static/media/clock.jpg": "/my-path/static/media/clock.27a9c2ba472ca26d01fd.jpg",
-    "static/media/shield.jpg": "/my-path/static/media/shield.646470d73d27d774735f.jpg",
     "static/media/quaterly-thinking.svg": "/my-path/static/media/quaterly-thinking.56ff7759139de1030998397d820264a3.svg",
     "static/media/daily1-01.svg": "/my-path/static/media/daily1-01.59e0f2ede335fd3e0e556eab88b0afc4.svg",
     "static/media/chess.jpg": "/my-path/static/media/chess.7bcf0d22e2cf8d15ec3d.jpg",
@@ -28,11 +28,11 @@
     "static/media/arrow.svg": "/my-path/static/media/arrow.14663afe9ccff547eba3abb819067a68.svg",
     "index.html": "/my-path/index.html",
     "main.c6258d62.css.map": "/my-path/static/css/main.c6258d62.css.map",
-    "main.62faf58c.js.map": "/my-path/static/js/main.62faf58c.js.map",
+    "main.c5b0e81a.js.map": "/my-path/static/js/main.c5b0e81a.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6258d62.css",
-    "static/js/main.62faf58c.js"
+    "static/js/main.c5b0e81a.js"
   ]
 }

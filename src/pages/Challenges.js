@@ -23,7 +23,7 @@ export default function Challenges() {
   };
   const tabActiveGrowth = {
     textDecoration: "none",
-    padding: "10px 24px",
+    padding: "10px 40px",
     backgroundColor: "#434C55",
     color: "#fff",
     borderRadius: "22px",
@@ -31,11 +31,11 @@ export default function Challenges() {
     fontSize: "14px",
     marginLeft: "4px",
     marginRight: "4px",
-    transition: "all 150ms ease-in",
+    transition: "all 150ms ease",
   };
   const tabActiveProcesses = {
     textDecoration: "none",
-    padding: "10px 24px",
+    padding: "10px 40px",
     backgroundColor: "#554354",
     color: "#fff",
     borderRadius: "22px",
@@ -43,11 +43,11 @@ export default function Challenges() {
     fontSize: "14px",
     marginLeft: "4px",
     marginRight: "4px",
-    transition: "all 150ms ease-in",
+    transition: "all 150ms ease",
   };
   const tabActiveRoutines = {
     textDecoration: "none",
-    padding: "10px 24px",
+    padding: "10px 40px",
     backgroundColor: "#434D60",
     color: "#fff",
     borderRadius: "22px",
@@ -55,7 +55,7 @@ export default function Challenges() {
     fontSize: "14px",
     marginLeft: "4px",
     marginRight: "4px",
-    transition: "all 150ms ease-in",
+    transition: "all 150ms ease",
   };
   return (
     <div style={{ display: "flex", flexDirection: "column", flex: "1" }}>

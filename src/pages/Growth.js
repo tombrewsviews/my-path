@@ -2,7 +2,7 @@ import React from "react";
 import ModalFull from "./../components/modal";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
-import shield from "./../images/shield.jpg";
+import shield from "./../images/shield.png";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
 import daily1 from "./../images/daily1-01.svg";
@@ -99,9 +99,9 @@ export default function Growth() {
                   lineHeight: "1.7",
                 }}
               >
-                I challenge myself by stepping out of my comfort zone as often
-                as possible. Continous change and growth have been the most
-                vital driver of my achievements and professional transformation.
+                I step out of my comfort zone as often as possible. Continous
+                change and growth are the most important drivers behind my
+                achievements and professional transformation.
               </p>
             </div>
             <AnimationOnScroll

@@ -2,7 +2,7 @@ import React from "react";
 import ModalFull from "./../components/modal";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, NavLink, Link, Route, Routes } from "react-router-dom";
 import "./../App.css";
 import Routines from "./Routines";
 import Processes from "./Processes";
@@ -10,6 +10,53 @@ import Growth from "./Growth";
 import logout from "./../images/logout_g.svg";
 
 export default function Challenges() {
+  const tab = {
+    textDecoration: "none",
+    padding: "10px 24px",
+    backgroundColor: "transparent",
+    color: "#fff",
+    borderRadius: "22px",
+    fontWeight: "600",
+    fontSize: "14px",
+    marginLeft: "4px",
+    marginRight: "4px",
+  };
+  const tabActiveGrowth = {
+    textDecoration: "none",
+    padding: "10px 24px",
+    backgroundColor: "#434C55",
+    color: "#fff",
+    borderRadius: "22px",
+    fontWeight: "600",
+    fontSize: "14px",
+    marginLeft: "4px",
+    marginRight: "4px",
+    transition: "all 150ms ease-in",
+  };
+  const tabActiveProcesses = {
+    textDecoration: "none",
+    padding: "10px 24px",
+    backgroundColor: "#554354",
+    color: "#fff",
+    borderRadius: "22px",
+    fontWeight: "600",
+    fontSize: "14px",
+    marginLeft: "4px",
+    marginRight: "4px",
+    transition: "all 150ms ease-in",
+  };
+  const tabActiveRoutines = {
+    textDecoration: "none",
+    padding: "10px 24px",
+    backgroundColor: "#434D60",
+    color: "#fff",
+    borderRadius: "22px",
+    fontWeight: "600",
+    fontSize: "14px",
+    marginLeft: "4px",
+    marginRight: "4px",
+    transition: "all 150ms ease-in",
+  };
   return (
     <div style={{ display: "flex", flexDirection: "column", flex: "1" }}>
       <div
@@ -39,54 +86,24 @@ export default function Challenges() {
             backdropFilter: "blur(15px)",
           }}
         >
-          <Link to="routines" style={{ textDecoration: "none" }}>
-            <p
-              style={{
-                padding: "10px 24px",
-                backgroundColor: "#434655",
-                color: "#fff",
-                borderRadius: "22px",
-                fontWeight: "600",
-                fontSize: "14px",
-                marginLeft: "4px",
-                marginRight: "4px",
-              }}
-            >
-              Routines
-            </p>
-          </Link>
-          <Link to="processes" style={{ textDecoration: "none" }}>
-            <p
-              style={{
-                padding: "10px 24px",
-                backgroundColor: "transparent",
-                color: "#fff",
-                borderRadius: "22px",
-                fontWeight: "600",
-                fontSize: "14px",
-                marginLeft: "4px",
-                marginRight: "4px",
-              }}
-            >
-              Processes
-            </p>
-          </Link>
-          <Link to="growth" style={{ textDecoration: "none" }}>
-            <p
-              style={{
-                padding: "10px 24px",
-                backgroundColor: "transparent",
-                color: "#fff",
-                borderRadius: "22px",
-                fontWeight: "600",
-                fontSize: "14px",
-                marginLeft: "4px",
-                marginRight: "4px",
-              }}
-            >
-              Growth
-            </p>
-          </Link>
+          <NavLink
+            to="growth"
+            style={({ isActive }) => (isActive ? tabActiveGrowth : tab)}
+          >
+            Growth
+          </NavLink>
+          <NavLink
+            to="processes"
+            style={({ isActive }) => (isActive ? tabActiveProcesses : tab)}
+          >
+            Processes
+          </NavLink>
+          <NavLink
+            to="routines"
+            style={({ isActive }) => (isActive ? tabActiveRoutines : tab)}
+          >
+            Routines
+          </NavLink>
         </div>
       </div>
       <div

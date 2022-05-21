@@ -70,7 +70,7 @@ export default function Routines() {
                 zIndex: "1",
               }}
             >
-              <p style={{ color: "#D9B531", fontWeight: "600" }}>ワン</p>
+              <p style={{ color: "#D9B531", fontWeight: "600" }}>三つ</p>
               <p
                 style={{
                   color: "#D9B531",
@@ -78,7 +78,7 @@ export default function Routines() {
                   fontSize: "18px",
                 }}
               >
-                Challenge One
+                Challenge Three
               </p>
               <h1
                 style={{
@@ -99,10 +99,9 @@ export default function Routines() {
                   lineHeight: "1.7",
                 }}
               >
-                I challenge myself to grow, learn, and get things done every day
-                with the help of a few well-balanced routines. I use routines to
-                stay in touch with my team and define the long-term purpose of
-                my work.
+                I challenge myself to get things done every day with the help of
+                a few well-balanced routines. I use routines to stay in touch
+                with my team and execute the long-term purpose of my work.
               </p>
             </div>
             <AnimationOnScroll
@@ -131,20 +130,37 @@ export default function Routines() {
           backgroundColor: "#F8E088",
         }}
       >
-        <h1>Daily Routines</h1>
-        <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
+        <h1>All Year Round Routines</h1>
+        <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
             Daily routines are the hardest to stick with successfully, but the
-            progress starts every morning repeatedly. <br />
+            progress starts here, every morning and every focus time. <br />
             <br />I wasn't always into finding balance through routines. <br />
             <br />
-            My creative and curious nature was an obstacle in the past. <br />
-            <br />
-            I've noticed a positive productivity change since I've developed my
-            routines templates (on the left, working day; on the right, break
-            day) and started applying them depending on the day.
           </p>
-        </CardSection3TextRight>
+        </CardSection2TextRight>
+
+        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
+        <CardSection2TextRight imgOne={quaterly1}>
+          <p style={{ fontSize: "18px" }}>
+            People tell me I'm a hyper-achiever. I believe in autonomy and team
+            empowerment. I find OKRs very helpful in tracking team and personal
+            performance. The outcomes matter more than outputs.
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={quaterly2}>
+          <p style={{ fontSize: "18px" }}>
+            The inspiration for Thinking Weeks came from Gates and Musk, who
+            spend a lot of focus on learning in a solitary environment. I
+            prioritize reading, one-2-one brainstorming discussions, and active
+            research over regular meetings during this time.
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+
         <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
         <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
@@ -156,32 +172,21 @@ export default function Routines() {
             make sure to ask essential questions.
           </p>
         </CardSection2TextRight>
-        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
-        <CardSection2TextRight imgOne={quaterly1}>
-          <p style={{ fontSize: "18px" }}>
-            When I lead a team of designers I keep in touch on a weekly and
-            monthly basis.
-            <br />
-            <br />
-          </p>
-        </CardSection2TextRight>
-        <CardSection2TextRight imgOne={quaterly2}>
-          <p style={{ fontSize: "18px" }}>
-            When I lead a team of designers I keep in touch on a weekly and
-            monthly basis.
-            <br />
-            <br />
-          </p>
-        </CardSection2TextRight>
-        <h1 style={{ marginTop: "100px" }}>All Year Round Routines</h1>
-        <CardSection2TextRight imgOne={weekly}>
-          <p style={{ fontSize: "18px" }}>
+
+        <h1 style={{ marginTop: "100px" }}>Daily Routines</h1>
+        <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
+          <p style={{ fontSize: "18px", paddingBottom: "300px" }}>
             Daily routines are the hardest to stick with successfully, but the
-            progress starts here, every morning and every focus time. <br />
+            progress starts every morning repeatedly. <br />
             <br />I wasn't always into finding balance through routines. <br />
             <br />
+            My creative and curious nature was an obstacle in the past. <br />
+            <br />
+            I've noticed a positive productivity change since I've developed my
+            routines templates (on the left, working day; on the right, break
+            day) and started applying them depending on the day.
           </p>
-        </CardSection2TextRight>
+        </CardSection3TextRight>
       </div>
     </div>
   );

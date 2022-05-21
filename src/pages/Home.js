@@ -26,6 +26,7 @@ export default function Home() {
   function handleAfterOpen(event, data) {
     console.log(event, data);
   }
+
   return (
     <div style={{ display: "flex", flex: "1" }}>
       <div style={{ zIndex: "10", position: "relative" }}>
@@ -80,7 +81,7 @@ export default function Home() {
                 <img src={fight} className="App-world" alt="fight" />
               </ButtonIcon>
             </p>
-            <Link to="/challenges/routines" style={{ textDecoration: "none" }}>
+            <Link to="/challenges/growth" style={{ textDecoration: "none" }}>
               <ButtonPrimary
                 margin="48px 0px 0px 0px"
                 text="My Everyday Challenges"

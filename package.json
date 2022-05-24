@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://tombrewsviews.github.io/my-path",
   "dependencies": {
+    "@rive-app/react-canvas": "^3.0.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",

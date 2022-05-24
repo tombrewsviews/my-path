@@ -4,3 +4,5 @@ https://animate.style/
 https://www.npmjs.com/package/react-animation-on-scroll
 
 to make build: npm run deploy
+
+hover  handled by https://www.npmjs.com/package/@use-gesture/react

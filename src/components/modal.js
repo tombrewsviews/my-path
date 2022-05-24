@@ -213,7 +213,7 @@ function ModalFull(props) {
                 borderBottom: "1px solid #f2f2f2",
               }}
             >
-              Header
+              Product Design Case Studies
             </div>
             <div
               style={{

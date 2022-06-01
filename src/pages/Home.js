@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "./../images/arrow.svg";
 import avatar1 from "./../images/avatar1.jpg";
 import world from "./../images/world.svg";
 import value from "./../images/value.svg";
@@ -85,6 +86,7 @@ export default function Home() {
               <ButtonPrimary
                 margin="48px 0px 0px 0px"
                 text="My Everyday Challenges"
+                icon={arrow}
               />
             </Link>
           </div>

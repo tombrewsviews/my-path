@@ -5,6 +5,10 @@ import world from "./../images/world.svg";
 import value from "./../images/value.svg";
 import fight from "./../images/fight.svg";
 import logout from "./../images/logout.svg";
+import ModalCase from "./modalCase";
+import SA1 from "./../images/SANew1.jpg";
+import SA2 from "./../images/SANew2.jpg";
+import SA3 from "./../images/SANew3.jpg";
 
 const customStyles = {
   content: {
@@ -57,6 +61,10 @@ const customStyles = {
     margin: "0",
     width: "100px",
     height: "38px",
+  },
+  caseImg: {
+    marginTop: "8px",
+    borderRadius: "12px",
   },
 };
 
@@ -211,6 +219,7 @@ function ModalFull(props) {
                 paddingLeft: "32px",
                 paddingRight: "32px",
                 borderBottom: "1px solid #f2f2f2",
+                fontSize: "20px",
               }}
             >
               Product Design Case Studies
@@ -221,90 +230,28 @@ function ModalFull(props) {
                 flex: "1",
                 width: "100%",
                 flexDirection: "column",
-                paddingLeft: "32px",
-                paddingRight: "32px",
-                paddingTop: "32px",
-                paddingBottom: "32px",
+                // paddingTop: "32px",
+                // paddingBottom: "32px",
                 overflowY: "auto",
                 scrollBehavior: "smooth",
               }}
             >
               <section ref={oneRef}>
-                <p>
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef oiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                </p>
+                <ModalCase
+                  sectionName="Smart Albums"
+                  about="Pixellu delivers solutions for busy professional photographers. Smart Albums is one of their most successful tool for wedding album creation. "
+                  problem="Designed in 2014, Smart Albums utilizes early Google Material guidelines. Last year I was tasked to redesign the interface, interactions layer, and user experience to modernize the solution."
+                  research="We've interviewed hundreds of photographers to define the overall problem space. We found out the existing customers never mentioned outdated interface design as a burning problem. Inconsistencies between the software design and marketing campaigns were only noticeable by new customers on the branding level."
+                  prototyping="We've tested several color versions, including greyscale and color icons and four shades of gray for background colors. We found benefits to reducing the number of icons/buttons using a progressive disclosure pattern. "
+                  takeaways="Keep redesigning even if a solution works well. The software can be continuously improved. Be mindful of existing patterns and behaviors adopted by the users."
+                >
+                  <img style={customStyles.caseImg} src={SA1} />
+                  <img style={customStyles.caseImg} src={SA2} />
+                  <img style={customStyles.caseImg} src={SA3} />
+                </ModalCase>
               </section>
-              <section ref={twoRef}>
-                <p>
-                  YYYYYYYYYoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjefoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                </p>
-              </section>
-              <section ref={threeRef}>
-                <p>
-                  aaaaaaaaaaaaaaaaaaaYYYYYYYYYoiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjef oiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef
-                  oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjefoiawjefiojaweoi joawejf oiajwef ioawjef oawjef
-                  oiawjefiojaweoi joawejf oiajwef ioawjef oawjefoiawjefiojaweoi
-                  joawejf oiajwef ioawjef oawjef oiawjefiojaweoi joawejf oiajwef
-                  ioawjef oawjef
-                </p>
-              </section>
+              <section ref={twoRef}></section>
+              <section ref={threeRef}></section>
             </div>
           </div>
         </div>

@@ -1,12 +1,11 @@
 import React from "react";
-import arrow from "./../images/arrow.svg";
 
 interface Props {
   onClick: () => void;
   margin: string;
 }
 
-const ButtonPrimary: React.FC<Props> = ({ onClick, margin, text }) => {
+const ButtonPrimary: React.FC<Props> = ({ icon, onClick, margin, text }) => {
   return (
     <a
       onClick={onClick}
@@ -33,7 +32,7 @@ const ButtonPrimary: React.FC<Props> = ({ onClick, margin, text }) => {
         {text}
       </p>
       <img
-        src={arrow}
+        src={icon}
         style={{ width: "16px", height: "16px", marginLeft: "8px" }}
         alt="arrow"
       />

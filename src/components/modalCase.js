@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonPrimary from "./buttonPrimary";
-import arrow from "./../images/arrow.svg";
+import arrowUpRight from "./../images/arrowUpRight.svg";
 
 function ModalCase(props) {
   const styles = {
@@ -16,6 +16,7 @@ function ModalCase(props) {
       flexDirection: "column",
       display: "flex",
       flexGrow: "1",
+      alignItems: "flex-start",
     },
     imgWrapper: {
       flexDirection: "column",
@@ -27,6 +28,7 @@ function ModalCase(props) {
       fontSize: "40px",
       fontWeight: "500",
       color: "#323232",
+      lineHeight: "50px",
     },
     paragraphTitle: {
       fontSize: "16px",
@@ -36,6 +38,7 @@ function ModalCase(props) {
     paragraphBody: {
       fontSize: "20px",
       marginTop: "16px",
+      whiteSpace: "pre-line",
     },
   };
   return (
@@ -52,7 +55,13 @@ function ModalCase(props) {
         <div style={styles.paragraphBody}>{props.prototyping}</div>
         <div style={styles.paragraphTitle}>Main Takeaways</div>
         <div style={styles.paragraphBody}>{props.takeaways}</div>
-        <ButtonPrimary text="Open Final Design" icon={arrow} />
+        <ButtonPrimary
+          text="Open Final Design"
+          icon={arrowUpRight}
+          backgroundColor="#323232"
+          margin="64px 0px 0px 0px"
+          onClick={props.onClick}
+        />
       </div>
       <div style={styles.imgWrapper}>{props.children}</div>
     </div>

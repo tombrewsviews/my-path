@@ -3,15 +3,22 @@ import React from "react";
 interface Props {
   onClick: () => void;
   margin: string;
+  backgroundColor: string;
 }
 
-const ButtonPrimary: React.FC<Props> = ({ icon, onClick, margin, text }) => {
+const ButtonPrimary: React.FC<Props> = ({
+  icon,
+  onClick,
+  margin,
+  text,
+  backgroundColor,
+}) => {
   return (
     <a
       onClick={onClick}
       style={{
         border: "none",
-        backgroundColor: "#5E6896",
+        backgroundColor,
         borderRadius: "32px",
         padding: "12px 24px 12px 24px",
         children: "My Three Impossible Challenges",
@@ -19,6 +26,7 @@ const ButtonPrimary: React.FC<Props> = ({ icon, onClick, margin, text }) => {
         display: "inline-flex",
         flexDirection: "row",
         alignItems: "center",
+        flexGrow: "0",
       }}
     >
       <p

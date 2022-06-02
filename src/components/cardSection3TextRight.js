@@ -12,7 +12,7 @@ export default function cardSection3TextRight({ children, imgOne, imgTwo }) {
         marginTop: "48px",
       }}
     >
-      <AnimationOnScroll animateIn="fadeInLeft" duration="0.7">
+      <AnimationOnScroll animateIn="fadeInLeft" duration={0.7}>
         <div
           style={{
             display: "flex",
@@ -28,7 +28,7 @@ export default function cardSection3TextRight({ children, imgOne, imgTwo }) {
           <img src={imgOne} alt="" />
         </div>
       </AnimationOnScroll>
-      <AnimationOnScroll animateIn="fadeInLeft" duration="0.5">
+      <AnimationOnScroll animateIn="fadeInLeft" duration={0.5}>
         <div
           style={{
             display: "flex",
@@ -45,7 +45,7 @@ export default function cardSection3TextRight({ children, imgOne, imgTwo }) {
           <img src={imgTwo} alt="" />
         </div>
       </AnimationOnScroll>
-      <AnimationOnScroll animateIn="fadeInRight" duration="1">
+      <AnimationOnScroll animateIn="fadeInRight" duration={1}>
         <div style={{ display: "flex", flex: "1", marginLeft: "64px" }}>
           {children}
         </div>

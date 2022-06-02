@@ -12,7 +12,7 @@ export default function cardSection2TextRight({ children, imgOne }) {
         marginTop: "48px",
       }}
     >
-      <AnimationOnScroll animateIn="fadeInLeft" duration="0.5">
+      <AnimationOnScroll animateIn="fadeInLeft" duration={0.5}>
         <div
           style={{
             display: "flex",
@@ -33,7 +33,7 @@ export default function cardSection2TextRight({ children, imgOne }) {
       <AnimationOnScroll
         animateIn="fadeIn"
         animateIn="fadeInRight"
-        duration="1"
+        duration={1}
       >
         <div
           style={{

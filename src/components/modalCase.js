@@ -38,6 +38,12 @@ function ModalCase(props) {
       textTransform: "uppercase",
       marginTop: "48px",
     },
+    paragraphTitleHeavy: {
+      fontSize: "16px",
+      fontWeight: "700",
+      textTransform: "uppercase",
+      marginTop: "48px",
+    },
     paragraphBody: {
       fontSize: "20px",
       marginTop: "16px",
@@ -57,7 +63,7 @@ function ModalCase(props) {
         <div style={styles.paragraphBody}>{props.research}</div>
         <div style={styles.paragraphTitle}>Prototyping and Testing</div>
         <div style={styles.paragraphBody}>{props.prototyping}</div>
-        <div style={styles.paragraphTitle}>Key Design Decisions</div>
+        <div style={styles.paragraphTitleHeavy}>Key Design Decisions</div>
         <div style={styles.paragraphBody}>{props.decisions}</div>
         <div style={styles.paragraphTitle}>Main Takeaways</div>
         <div style={styles.paragraphBody}>{props.takeaways}</div>

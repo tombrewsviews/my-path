@@ -264,6 +264,18 @@ function ModalFull(props) {
                   problem="Designed in 2014, Smart Albums utilizes early Google Material guidelines. Last year I was tasked to redesign the interface, interactions layer, and user experience to modernize the solution."
                   research="We've interviewed hundreds of photographers to define the overall problem space. We found out the existing customers never mentioned outdated interface design as a burning problem. Inconsistencies between the software design and marketing campaigns were only noticeable by new customers on the branding level."
                   prototyping="We've tested several color versions, including greyscale and color icons and four shades of gray for background colors. We found benefits to reducing the number of icons/buttons using a progressive disclosure pattern. "
+                  decisions={[
+                    "Change from light to dark theme for better contrast and content viewing.",
+                    <br />,
+                    <br />,
+                    "Redesign for consistent buttons style - all squares/rectangles with the same border radius, no ovals.",
+                    <br />,
+                    <br />,
+                    "Redesign for consistent iconography - all line icons with the same colors for states, no mixed libraries.",
+                    <br />,
+                    <br />,
+                    "Simplify the secondary navigation bar from the UX and UI perspective to declutter and make room for custom folders.",
+                  ]}
                   takeaways="Keep redesigning even if a solution works well. The software can be continuously improved. Be mindful of existing patterns and behaviors adopted by the users."
                   onClick={() =>
                     window.open(
@@ -287,6 +299,21 @@ function ModalFull(props) {
                   problem="The existing Paymeter app was launched years ago as a quick MVP. The design was never a focus for the team of five engineers. Almost all flows had major UX issues and did not match the modern way of managing information in the fintech space."
                   research="We've worked closely with two central financial banks primarily to define what type of features the new app should not have. We've also focused on onboarding flow since the existing one had major UX issues."
                   prototyping="We've prototyped and tested three variants of the onboarding flow. Each used a different data validation pattern and interface style. The final solution aims to reduce the number of onboarding steps while keeping the maximum data security for compliance reasons."
+                  decisions={[
+                    "Simplify the account creation process by keeping one input per screen in a stepper flow.",
+                    <br />,
+                    <br />,
+                    "Highlight the more common choices in the first onboarding step to minimize the choice overload. Break the boxiness by polling the visuals outside the card boundaries.",
+                    <br />,
+                    <br />,
+                    "Remove select your language step - use the device's default language instead.",
+                    <br />,
+                    <br />,
+                    "Combine two steps, document type and document photo using sensible default pattern.",
+                    <br />,
+                    <br />,
+                    "Shortened initial onboarding to get the user in the app quickly with payment setup moved to after the account setup.",
+                  ]}
                   takeaways="Design and technology have to go hand in hand to create the most optimized user experience. Identity validation becomes more straightforward when the latest technology lies underneath."
                   onClick={() =>
                     window.open(
@@ -317,6 +344,15 @@ function ModalFull(props) {
                     <br />,
                     <br />,
                     "We've used design system components created in Figma to represent the high-fidelity layouts. The final design included refactoring the design system to align it with the PrimeNG Angular components framework and enable faster front-end implementation.",
+                  ]}
+                  decisions={[
+                    "Redesign UX and UI using the design system aligned with implemented components in the framework convenient for the engineering team.",
+                    <br />,
+                    <br />,
+                    "Create an extendable filters menu to fit two primary personas, new and power users, and make the most of the progressive disclosure pattern.",
+                    <br />,
+                    <br />,
+                    "Use a more intuitive pattern of assigning data sheets to locations directly inside one library rather than duplicating the records between libraries. After testing, users defined the assignment pattern as more intuitive and straightforward.",
                   ]}
                   takeaways="Information architecture provides a stable foundation for the prototyping phase where stakeholders align around validated concepts and not individual opinions. Design systems play an essential role in the delivery process, alignment, and hand-off between design and engineering teams."
                   onClick={() =>

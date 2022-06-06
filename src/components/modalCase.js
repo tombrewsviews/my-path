@@ -11,6 +11,9 @@ function ModalCase(props) {
       paddingBottom: "32px",
       flexDirection: "row",
       display: "flex",
+      maxWidth: "1400px",
+      marginLeft: "auto",
+      marginRight: "auto",
     },
     textWrapper: {
       flexDirection: "column",
@@ -33,7 +36,7 @@ function ModalCase(props) {
     paragraphTitle: {
       fontSize: "16px",
       textTransform: "uppercase",
-      marginTop: "32px",
+      marginTop: "48px",
     },
     paragraphBody: {
       fontSize: "20px",
@@ -41,6 +44,7 @@ function ModalCase(props) {
       whiteSpace: "pre-line",
     },
   };
+
   return (
     <div style={styles.sectionWrapper}>
       <div style={styles.textWrapper}>
@@ -53,6 +57,8 @@ function ModalCase(props) {
         <div style={styles.paragraphBody}>{props.research}</div>
         <div style={styles.paragraphTitle}>Prototyping and Testing</div>
         <div style={styles.paragraphBody}>{props.prototyping}</div>
+        <div style={styles.paragraphTitle}>Key Design Decisions</div>
+        <div style={styles.paragraphBody}>{props.decisions}</div>
         <div style={styles.paragraphTitle}>Main Takeaways</div>
         <div style={styles.paragraphBody}>{props.takeaways}</div>
         <ButtonPrimary

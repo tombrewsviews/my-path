@@ -11,6 +11,7 @@
     "@use-gesture/react": "^10.2.15",
     "animate.css": "^4.1.1",
     "gsap": "^3.10.4",
+    "particles-bg": "^2.5.5",
     "react": "^18.0.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^18.0.0",

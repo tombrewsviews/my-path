@@ -99,6 +99,10 @@
   right: 115px;
 }
 
+.particles-bg-canvas-self {
+  background: #e2e7ee;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-highlight {
     animation: App-highlight infinite 3s ease-in-out;

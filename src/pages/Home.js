@@ -11,6 +11,7 @@ import "animate.css/animate.min.css";
 import { Link } from "react-router-dom";
 import "./../App.css";
 import { ButtonIcon } from "./../components/buttonIcon";
+import ParticlesBg from "particles-bg";
 
 export default function Home() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -96,17 +97,6 @@ export default function Home() {
 
       <div
         style={{
-          position: "absolute",
-          top: "10px",
-          right: "15vw",
-          zIndex: "0",
-        }}
-      >
-        <div className="App-year-1">20</div>
-        <div className="App-year-2">22</div>
-      </div>
-      <div
-        style={{
           zIndex: 3,
           position: "absolute",
           top: "150px",
@@ -116,6 +106,7 @@ export default function Home() {
         <p className="App-title-eng">My Product Lead Path</p>
         <p className="App-title-jap">私の製品リードパス</p>
       </div>
+      <ParticlesBg type="polygon" num={10} bg={true} />
     </div>
   );
 }

@@ -51,7 +51,8 @@ export default function Home() {
               >
                 <img src={avatar1} className="App-avatar" alt="avatar" />
               </ButtonIcon>
-              a designer on a mission to make a positive impact in the world
+              a product designer on a mission to make a positive impact in the
+              world
               <ButtonIcon
                 type="button"
                 buttonStyle="btn-no-padding"
@@ -72,8 +73,8 @@ export default function Home() {
               </ButtonIcon>
               <br />
               <br />
-              This is a story of my continous fight against my weaknesess and
-              shortcomings
+              This is a breakdown of my success story with challenges I'm facing
+              every day
               <ButtonIcon
                 type="button"
                 buttonStyle="btn-no-padding"

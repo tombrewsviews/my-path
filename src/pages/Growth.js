@@ -8,11 +8,17 @@ import CardSection2TextRight from "./../components/cardSection2TextRight";
 import skills from "./../images/skills.svg";
 import leadership from "./../images/leadership.svg";
 
-import daily1 from "./../images/daily1-01.svg";
-import daily2 from "./../images/daily2-01.svg";
-import weekly from "./../images/weekly-01.svg";
-import quaterly1 from "./../images/quaterly-okrs.svg";
-import quaterly2 from "./../images/quaterly-thinking.svg";
+import awards from "./../images/awards-01.svg";
+import achieve from "./../images/achieve.svg";
+import achieve2 from "./../images/achieve2.svg";
+import achieve3 from "./../images/achieve3.svg";
+import achieve4 from "./../images/achieve4.svg";
+import achieve5 from "./../images/achieve5.svg";
+import achieve6 from "./../images/achieve6.svg";
+import achieve7 from "./../images/achieve7.svg";
+import achieve8 from "./../images/achieve8.svg";
+import achieve9 from "./../images/achieve9.svg";
+import achieve10 from "./../images/achieve10.svg";
 
 export default function Growth() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -153,50 +159,51 @@ export default function Growth() {
         </CardSection2TextRight>
 
         <h1 style={{ marginTop: "100px" }}>Achievements</h1>
-        <CardSection2TextRight imgOne={quaterly1}>
+        <CardSection2TextRight imgOne={awards}>
           <p style={{ fontSize: "18px" }}>
-            People tell me I'm a hyper-achiever. I believe in autonomy and team
-            empowerment. I find OKRs very helpful in tracking team and personal
-            performance. The outcomes matter more than outputs.
-            <br />
-            <br />
-          </p>
-        </CardSection2TextRight>
-        <CardSection2TextRight imgOne={quaterly2}>
-          <p style={{ fontSize: "18px" }}>
-            The inspiration for Thinking Weeks came from Gates and Musk, who
-            spend a lot of focus on learning in a solitary environment. I
-            prioritize reading, one-2-one brainstorming discussions, and active
-            research over regular meetings during this time.
+            Awards
             <br />
             <br />
           </p>
         </CardSection2TextRight>
 
-        <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
-        <CardSection2TextRight imgOne={weekly}>
+        <CardSection3TextRight imgOne={achieve} imgTwo={achieve2}>
           <p style={{ fontSize: "18px" }}>
-            I keep in touch with my team weekly and monthly. I tend to avoid
-            recurring calls as those reduce the engagement and kill the sense of
-            relationship over time. I make myself available to my team and make
-            sure they know they can reach out at any time. I use asynchronous
-            check-in software, like Popwork, to create a feeling of cadence and
-            make sure to ask essential questions.
+            Patterns
+            <br />
+            <br />
           </p>
-        </CardSection2TextRight>
+        </CardSection3TextRight>
 
-        <h1 style={{ marginTop: "100px" }}>Daily Routines</h1>
-        <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
-          <p style={{ fontSize: "18px", paddingBottom: "300px" }}>
-            Daily routines are the hardest to stick with successfully, but the
-            progress starts every morning repeatedly. <br />
-            <br />I wasn't always into finding balance through routines. <br />
+        <CardSection3TextRight imgOne={achieve3} imgTwo={achieve4}>
+          <p style={{ fontSize: "18px" }}>
+            Patterns2
             <br />
-            My creative and curious nature was an obstacle in the past. <br />
             <br />
-            I've noticed a positive productivity change since I've developed my
-            routines templates (on the left, working day; on the right, break
-            day) and started applying them depending on the day.
+          </p>
+        </CardSection3TextRight>
+
+        <CardSection3TextRight imgOne={achieve5} imgTwo={achieve6}>
+          <p style={{ fontSize: "18px" }}>
+            KPIs
+            <br />
+            <br />
+          </p>
+        </CardSection3TextRight>
+
+        <CardSection3TextRight imgOne={achieve7} imgTwo={achieve8}>
+          <p style={{ fontSize: "18px" }}>
+            Mentoring
+            <br />
+            <br />
+          </p>
+        </CardSection3TextRight>
+
+        <CardSection3TextRight imgOne={achieve9} imgTwo={achieve10}>
+          <p style={{ fontSize: "18px" }}>
+            Transformation
+            <br />
+            <br />
           </p>
         </CardSection3TextRight>
       </div>

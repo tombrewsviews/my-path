@@ -73,8 +73,7 @@ export default function Home() {
               </ButtonIcon>
               <br />
               <br />
-              This is a breakdown of my success story with challenges I'm facing
-              every day
+              This is a breakdown of how I deal with my everyday challenges
               <ButtonIcon
                 type="button"
                 buttonStyle="btn-no-padding"

@@ -5,6 +5,7 @@ import "animate.css/animate.min.css";
 import shield from "./../images/shield.png";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
+import CardSection3TextRightFlip from "./../components/cardSection3TextRightFlip.js";
 import skills from "./../images/skills.svg";
 import leadership from "./../images/leadership.svg";
 
@@ -183,13 +184,13 @@ export default function Growth() {
           </p>
         </CardSection3TextRight>
 
-        <CardSection3TextRight imgOne={achieve5} imgTwo={achieve6}>
+        <CardSection3TextRightFlip imgOne={achieve5} imgTwo={achieve6}>
           <p style={{ fontSize: "18px" }}>
             KPIs
             <br />
             <br />
           </p>
-        </CardSection3TextRight>
+        </CardSection3TextRightFlip>
 
         <CardSection3TextRight imgOne={achieve7} imgTwo={achieve8}>
           <p style={{ fontSize: "18px" }}>

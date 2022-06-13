@@ -130,7 +130,7 @@ export default function Routines() {
           backgroundColor: "#F8E088",
         }}
       >
-        <h1>All Year Round Routines</h1>
+        <h1 style={{ marginBottom: "32px" }}>All Year Round Routines</h1>
         <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
             Daily routines are the hardest to stick with successfully, but the
@@ -140,7 +140,9 @@ export default function Routines() {
           </p>
         </CardSection2TextRight>
 
-        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
+          Quaterly Routines
+        </h1>
         <CardSection2TextRight imgOne={quaterly1}>
           <p style={{ fontSize: "18px" }}>
             People tell me I'm a hyper-achiever. I believe in autonomy and team
@@ -161,7 +163,9 @@ export default function Routines() {
           </p>
         </CardSection2TextRight>
 
-        <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
+          Weekly Routines
+        </h1>
         <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
             I keep in touch with my team weekly and monthly. I tend to avoid
@@ -173,7 +177,9 @@ export default function Routines() {
           </p>
         </CardSection2TextRight>
 
-        <h1 style={{ marginTop: "100px" }}>Daily Routines</h1>
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
+          Daily Routines
+        </h1>
         <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
           <p style={{ fontSize: "18px", paddingBottom: "300px" }}>
             Daily routines are the hardest to stick with successfully, but the

@@ -7,6 +7,8 @@ export default function cardSection3TextRightFlip({
   children,
   imgOne,
   imgTwo,
+  textOne,
+  textTwo,
 }) {
   return (
     <div
@@ -14,7 +16,7 @@ export default function cardSection3TextRightFlip({
         display: "flex",
         flex: "1",
         flexDirection: "row",
-        marginTop: "32px",
+        marginTop: "16px",
       }}
     >
       <AnimationOnScroll animateIn="fadeInLeft" duration={0.7}>
@@ -23,7 +25,7 @@ export default function cardSection3TextRightFlip({
             <div className="flip-card-front">
               <img src={imgOne} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back">back</div>
+            <div className="flip-card-back">{textOne}</div>
           </div>
         </div>
       </AnimationOnScroll>
@@ -34,7 +36,7 @@ export default function cardSection3TextRightFlip({
             <div className="flip-card-front">
               <img src={imgTwo} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back">back</div>
+            <div className="flip-card-back">{textTwo}</div>
           </div>
         </div>
       </AnimationOnScroll>

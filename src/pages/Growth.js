@@ -20,6 +20,8 @@ import achieve7 from "./../images/achieve7.svg";
 import achieve8 from "./../images/achieve8.svg";
 import achieve9 from "./../images/achieve9.svg";
 import achieve10 from "./../images/achieve10.svg";
+import achieve11 from "./../images/achieve11.svg";
+import achieve12 from "./../images/achieve12.svg";
 
 export default function Growth() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -140,7 +142,7 @@ export default function Growth() {
           backgroundColor: "#F8E088",
         }}
       >
-        <h1 style={{ color: "#1C2327" }}>Growth Paths</h1>
+        <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>Growth Paths</h1>
         <CardSection2TextRight imgOne={skills}>
           <p style={{ fontSize: "18px" }}>
             My <br />
@@ -159,7 +161,9 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
 
-        <h1 style={{ marginTop: "100px" }}>Achievements</h1>
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
+          Achievements
+        </h1>
         <CardSection2TextRight imgOne={awards}>
           <p style={{ fontSize: "18px" }}>
             Awards
@@ -168,23 +172,71 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
 
-        <CardSection3TextRight imgOne={achieve} imgTwo={achieve2}>
+        <CardSection3TextRightFlip
+          imgOne={achieve}
+          imgTwo={achieve2}
+          textOne={[
+            "I've created the Horizontal and Vertical design concepts as part of my work on the Views framework and to simplify front-end engineering concepts for less-technical designers.",
+            <br />,
+            <br />,
+            "Horizontal and Vertical abstraction of flex-grow, flex-shrink, flex-basis, and flex-direction properties was more intuitive for designers. Eventually, it made its way to design tools like Figma and Framer.",
+          ]}
+          textTwo={[
+            "Panels UX pattern started as an experiment aimed at high feature portability between applications. Each panel contained well-defined functionality and could be ported at any stage in the flow.",
+            <br />,
+            <br />,
+            "Microsoft and HMH featured Panels successfully in their products; Microsoft introduced it in Azure's cloud management app. HMH built an interactive library for secondary students in the US.",
+          ]}
+        >
           <p style={{ fontSize: "18px" }}>
             Patterns
             <br />
             <br />
           </p>
-        </CardSection3TextRight>
+        </CardSection3TextRightFlip>
 
-        <CardSection3TextRight imgOne={achieve3} imgTwo={achieve4}>
+        <CardSection3TextRightFlip
+          imgOne={achieve3}
+          imgTwo={achieve4}
+          textOne={[
+            "As part of my consulting contract with BNP Paribas, I've defined a new UX pattern to help financial professionals confidently operate approval processes.",
+            <br />,
+            <br />,
+            "The Drill-In pattern enables the preview of all affected data across the system after executing an action. After the fact, reviewing all impacted data becomes an essential step in critical accounting transactions.",
+          ]}
+          textTwo={[
+            "I've got a unique opportunity to contribute to an open-source framework called Views to design a simplified flow management pattern. The goals were to clarify the nesting of components and enable the designers to contribute directly to code.",
+            <br />,
+            <br />,
+            "My state machine pattern has two states called Together and Separate and allows the creation of any UX flow while keeping a straightforward structure. ",
+          ]}
+        >
           <p style={{ fontSize: "18px" }}>
             Patterns2
             <br />
             <br />
           </p>
-        </CardSection3TextRight>
+        </CardSection3TextRightFlip>
 
-        <CardSection3TextRightFlip imgOne={achieve5} imgTwo={achieve6}>
+        <CardSection3TextRightFlip
+          imgOne={achieve5}
+          imgTwo={achieve6}
+          textOne={[
+            "My top priority goal at SoftCo was to improve the existing Purchase-2-Pay platform and release the redesigned version as soon as possible.",
+            <br />,
+            <br />,
+            "Together with the engineering team, we had to make the most of Vaadin's front-end framework, the primary technical constraint. ",
+            <br />,
+            <br />,
+            "Customers loved the new version, and the company recorded 400% revenue growth the following year.",
+          ]}
+          textTwo={[
+            "Patient self-service apps were the highest priority at Greyfinch. One of them, the Appointment Widget, allows patients to schedule dental visits without calling the office. It generated quarter-million dollars for our customers in the first three months since its launch.",
+            <br />,
+            <br />,
+            "This widget was designed in a modular, embeddable way to enable use across websites and environments.",
+          ]}
+        >
           <p style={{ fontSize: "18px" }}>
             KPIs
             <br />
@@ -192,21 +244,44 @@ export default function Growth() {
           </p>
         </CardSection3TextRightFlip>
 
-        <CardSection3TextRight imgOne={achieve7} imgTwo={achieve8}>
+        <CardSection3TextRightFlip
+          imgOne={achieve7}
+          imgTwo={achieve8}
+          textOne={["I've .", <br />, <br />, "Hori"]}
+          textTwo={["Pan.", <br />, <br />, "Micr."]}
+        >
           <p style={{ fontSize: "18px" }}>
             Mentoring
             <br />
             <br />
           </p>
-        </CardSection3TextRight>
+        </CardSection3TextRightFlip>
 
-        <CardSection3TextRight imgOne={achieve9} imgTwo={achieve10}>
+        <CardSection3TextRightFlip
+          imgOne={achieve9}
+          imgTwo={achieve10}
+          textOne={["I've .", <br />, <br />, "Hori"]}
+          textTwo={["Pan.", <br />, <br />, "Micr."]}
+        >
           <p style={{ fontSize: "18px" }}>
             Transformation
             <br />
             <br />
           </p>
-        </CardSection3TextRight>
+        </CardSection3TextRightFlip>
+
+        <CardSection3TextRightFlip
+          imgOne={achieve11}
+          imgTwo={achieve12}
+          textOne={["I've .", <br />, <br />, "Hori"]}
+          textTwo={["Pan.", <br />, <br />, "Micr."]}
+        >
+          <p style={{ fontSize: "18px" }}>
+            Processes
+            <br />
+            <br />
+          </p>
+        </CardSection3TextRightFlip>
       </div>
     </div>
   );

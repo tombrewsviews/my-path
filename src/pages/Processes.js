@@ -130,7 +130,9 @@ export default function Processes() {
           backgroundColor: "#F8E088",
         }}
       >
-        <h1 style={{ color: "#1C2327" }}>All Year Round Routines</h1>
+        <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>
+          All Year Round Routines
+        </h1>
         <CardSection2TextRight imgOne={weekly}>
           <p style={{ fontSize: "18px" }}>
             Daily routines are the hardest to stick with successfully, but the
@@ -139,54 +141,6 @@ export default function Processes() {
             <br />
           </p>
         </CardSection2TextRight>
-
-        <h1 style={{ marginTop: "100px" }}>Quaterly Routines</h1>
-        <CardSection2TextRight imgOne={quaterly1}>
-          <p style={{ fontSize: "18px" }}>
-            People tell me I'm a hyper-achiever. I believe in autonomy and team
-            empowerment. I find OKRs very helpful in tracking team and personal
-            performance. The outcomes matter more than outputs.
-            <br />
-            <br />
-          </p>
-        </CardSection2TextRight>
-        <CardSection2TextRight imgOne={quaterly2}>
-          <p style={{ fontSize: "18px" }}>
-            The inspiration for Thinking Weeks came from Gates and Musk, who
-            spend a lot of focus on learning in a solitary environment. I
-            prioritize reading, one-2-one brainstorming discussions, and active
-            research over regular meetings during this time.
-            <br />
-            <br />
-          </p>
-        </CardSection2TextRight>
-
-        <h1 style={{ marginTop: "100px" }}>Weekly Routines</h1>
-        <CardSection2TextRight imgOne={weekly}>
-          <p style={{ fontSize: "18px" }}>
-            I keep in touch with my team weekly and monthly. I tend to avoid
-            recurring calls as those reduce the engagement and kill the sense of
-            relationship over time. I make myself available to my team and make
-            sure they know they can reach out at any time. I use asynchronous
-            check-in software, like Popwork, to create a feeling of cadence and
-            make sure to ask essential questions.
-          </p>
-        </CardSection2TextRight>
-
-        <h1 style={{ marginTop: "100px" }}>Daily Routines</h1>
-        <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
-          <p style={{ fontSize: "18px", paddingBottom: "300px" }}>
-            Daily routines are the hardest to stick with successfully, but the
-            progress starts every morning repeatedly. <br />
-            <br />I wasn't always into finding balance through routines. <br />
-            <br />
-            My creative and curious nature was an obstacle in the past. <br />
-            <br />
-            I've noticed a positive productivity change since I've developed my
-            routines templates (on the left, working day; on the right, break
-            day) and started applying them depending on the day.
-          </p>
-        </CardSection3TextRight>
       </div>
     </div>
   );

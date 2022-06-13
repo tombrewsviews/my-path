@@ -173,11 +173,11 @@
 		c0.3,0.3,0.4,0.7,0.4,1.2c0,0.4-0.1,0.8-0.4,1.2c-0.2,0.4-0.6,0.6-1.1,0.8c-0.5,0.2-1,0.3-1.6,0.3C78.5,178.4,77.9,178.3,77.4,178z
 		"/>
 </g>
-<rect x="36.4" y="36.8" fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" width="33.1" height="70.8"/>
-<rect x="69.5" y="36.8" fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" width="33.1" height="70.8"/>
-<rect x="102.6" y="36.8" fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" width="33.1" height="70.8"/>
-<line fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" x1="52.9" y1="72.2" x2="86" y2="72.2"/>
-<polyline fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" points="78.4,64.6 86,72.2 78.4,79.8 "/>
-<line fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" x1="86" y1="91.5" x2="119.2" y2="91.5"/>
-<polyline fill="none" stroke="#363636" stroke-width="1.5" stroke-miterlimit="10" points="111.5,83.9 119.2,91.5 111.5,99.1 "/>
+<rect x="36.4" y="36.8" fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" width="33.1" height="70.8"/>
+<rect x="69.5" y="36.8" fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" width="33.1" height="70.8"/>
+<rect x="102.6" y="36.8" fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" width="33.1" height="70.8"/>
+<line fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" x1="52.9" y1="72.2" x2="86" y2="72.2"/>
+<polyline fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" points="78.4,64.6 86,72.2 78.4,79.8 "/>
+<line fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" x1="86" y1="91.5" x2="119.2" y2="91.5"/>
+<polyline fill="none" stroke="#3C61ED" stroke-width="1.5" stroke-miterlimit="10" points="111.5,83.9 119.2,91.5 111.5,99.1 "/>
 </svg>

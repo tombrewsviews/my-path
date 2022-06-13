@@ -9,7 +9,7 @@ export default function cardSection2TextRight({ children, imgOne }) {
         display: "flex",
         flex: "1",
         flexDirection: "row",
-        marginTop: "32px",
+        marginTop: "16px",
       }}
     >
       <AnimationOnScroll animateIn="fadeInLeft" duration={0.5}>

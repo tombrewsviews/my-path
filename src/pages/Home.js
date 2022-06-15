@@ -21,13 +21,11 @@ export default function Home() {
   }
 
   function handleCloseModal(event, data) {
-    console.log(event, data);
+    // console.log(event, data);
     setIsOpen(false);
   }
 
-  function handleAfterOpen(event, data) {
-    console.log(event, data);
-  }
+  function handleAfterOpen(event, data) {}
 
   return (
     <div style={{ display: "flex", flex: "1" }}>

@@ -9,7 +9,7 @@ import CardSection3TextRightFlip from "./../components/cardSection3TextRightFlip
 import skills from "./../images/skills.svg";
 import leadership from "./../images/leadership.svg";
 
-import awards from "./../images/awards-01.svg";
+import awards from "./../images/awards.svg";
 import achieve from "./../images/achieve.svg";
 import achieve2 from "./../images/achieve2.svg";
 import achieve3 from "./../images/achieve3.svg";
@@ -34,9 +34,7 @@ export default function Growth() {
     setIsOpen(false);
   }
 
-  function handleAfterOpen(event, data) {
-    // console.log(event, data);
-  }
+  function handleAfterOpen(event, data) {}
   return (
     <div
       style={{
@@ -145,18 +143,20 @@ export default function Growth() {
         <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>Growth Paths</h1>
         <CardSection2TextRight imgOne={skills}>
           <p style={{ fontSize: "18px" }}>
-            My <br />
+            I believe change is the only constant. <br />
             <br />
-            More <br />
+            I've been upskilling myself continuously throughout my career. I
+            love to learn on the job, keep up with the latest book releases and
+            finish new online courses. <br />
             <br />
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={leadership}>
           <p style={{ fontSize: "18px" }}>
-            My <br />
+            People are a more significant challenge than computers. <br />
             <br />
-            More
-            <br />
+            It's never just splashy successes. Despite many obstacles and past
+            mistakes, I keep improving my communication and leadership skills.
             <br />
           </p>
         </CardSection2TextRight>
@@ -247,8 +247,21 @@ export default function Growth() {
         <CardSection3TextRightFlip
           imgOne={achieve7}
           imgTwo={achieve8}
-          textOne={["I've .", <br />, <br />, "Hori"]}
-          textTwo={["Pan.", <br />, <br />, "Micr."]}
+          textOne={[
+            "My first mentoring gig was with Thinkful and lasted for over a year. During that time, I met many young UX and UI designers. ",
+            <br />,
+            <br />,
+            "My main task was to individually guide them through a custom curriculum and work with them on hypothetical user problems.",
+            <br />,
+            <br />,
+            "I'm still in touch with some of my students, even though years have passed.",
+          ]}
+          textTwo={[
+            "Working as a mentor at Dribbble pushes me on the communication and creative levels. I used to organize brainstorming sessions at work before Dribbble. Still, the product team audience is more diverse than a group of UX and UI professionals.",
+            <br />,
+            <br />,
+            "It's incredibly inspiring to see people improve. I've become a better designer since I started mentoring other designers.",
+          ]}
         >
           <p style={{ fontSize: "18px" }}>
             Mentoring

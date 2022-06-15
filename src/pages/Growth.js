@@ -153,10 +153,8 @@ export default function Growth() {
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={leadership}>
           <p style={{ fontSize: "18px" }}>
-            People are a more significant challenge than computers. <br />
-            <br />
-            It's never just splashy successes. Despite many obstacles and past
-            mistakes, I keep improving my communication and leadership skills.
+            Managing and mentoring people has its challenges, but my team's
+            final success and delivered value outshine the hard times.
             <br />
           </p>
         </CardSection2TextRight>
@@ -273,8 +271,21 @@ export default function Growth() {
         <CardSection3TextRightFlip
           imgOne={achieve9}
           imgTwo={achieve10}
-          textOne={["I've .", <br />, <br />, "Hori"]}
-          textTwo={["Pan.", <br />, <br />, "Micr."]}
+          textOne={[
+            "When I came on board, the company struggled with value delivery. The processes were outdated, the staff wasn't collaborative, and the tech stack wasn't performant. On top of my product design role, I took on an additional responsibility to help transition to a modern stack and goal-driven mindset. ",
+            <br />,
+            <br />,
+            "The team achieved impressive successes in the second year of the transformation.",
+          ]}
+          textTwo={[
+            "I got in the door at the time when the founders began to recognize the value in Marty's Cagan guides to empowered product teams.",
+            <br />,
+            <br />,
+            "During my year-long contract, I've managed to roll out the new guidelines across all product teams.",
+            <br />,
+            <br />,
+            "The transformation wasn't complete by the time when my contract ended, but the new mindset persevered.",
+          ]}
         >
           <p style={{ fontSize: "18px" }}>
             Transformation
@@ -295,6 +306,26 @@ export default function Growth() {
             <br />
           </p>
         </CardSection3TextRightFlip>
+
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Courses</h1>
+        <CardSection2TextRight imgOne={awards}>
+          <p style={{ fontSize: "18px" }}>
+            Courses
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
+          Important Books
+        </h1>
+        <CardSection2TextRight imgOne={awards}>
+          <p style={{ fontSize: "18px" }}>
+            Books
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
       </div>
     </div>
   );

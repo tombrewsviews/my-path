@@ -86,7 +86,7 @@ export default function Home() {
                 margin="48px 0px 0px 0px"
                 text="My Everyday Challenges"
                 icon={arrow}
-                backgroundColor="#6e7699"
+                backgroundColor="rgba(110,118,153,0.8)"
               />
             </Link>
           </div>

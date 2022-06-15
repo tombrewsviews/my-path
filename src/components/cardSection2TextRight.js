@@ -40,6 +40,7 @@ export default function cardSection2TextRight({ children, imgOne }) {
             // display: "flex",
             // flex: "1",
             marginLeft: "48px",
+            marginTop: "16px",
             // width: "250px",
           }}
         >

@@ -27,6 +27,7 @@ const ButtonPrimary: React.FC<Props> = ({
         flexDirection: "row",
         alignItems: "center",
         flexGrow: "0",
+        backdropFilter: "blur(25px)",
       }}
     >
       <p

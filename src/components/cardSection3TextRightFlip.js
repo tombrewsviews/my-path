@@ -41,7 +41,14 @@ export default function cardSection3TextRightFlip({
         </div>
       </AnimationOnScroll>
       <AnimationOnScroll animateIn="fadeInRight" duration={1}>
-        <div style={{ display: "flex", flex: "1", marginLeft: "48px" }}>
+        <div
+          style={{
+            display: "flex",
+            flex: "1",
+            marginLeft: "48px",
+            marginTop: "16px",
+          }}
+        >
           {children}
         </div>
       </AnimationOnScroll>

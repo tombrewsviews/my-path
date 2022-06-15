@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-path/static/css/main.75f8f6cc.css",
-    "main.js": "/my-path/static/js/main.d9256e83.js",
+    "main.js": "/my-path/static/js/main.d47e1d3e.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/SANew1.jpg": "/my-path/static/media/SANew1.2e25ae15154ae3b8b807.jpg",
@@ -25,7 +25,7 @@
     "static/media/quaterly-okrs.svg": "/my-path/static/media/quaterly-okrs.e6a805831884d806036a26c642273cf7.svg",
     "static/media/Calears4.jpg": "/my-path/static/media/Calears4.3414fe44981f64b3ff98.jpg",
     "static/media/clock.jpg": "/my-path/static/media/clock.27a9c2ba472ca26d01fd.jpg",
-    "static/media/awards-01.svg": "/my-path/static/media/awards-01.aecdd6765834abcee09f777aac194bb7.svg",
+    "static/media/awards.svg": "/my-path/static/media/awards.c440db99d8b097647e03f87c6c63cca7.svg",
     "static/media/quaterly-thinking.svg": "/my-path/static/media/quaterly-thinking.56ff7759139de1030998397d820264a3.svg",
     "static/media/daily1-01.svg": "/my-path/static/media/daily1-01.59e0f2ede335fd3e0e556eab88b0afc4.svg",
     "static/media/achieve8.svg": "/my-path/static/media/achieve8.295baa38aeea8b6637595dea18d8c09f.svg",
@@ -38,7 +38,7 @@
     "static/media/achieve.svg": "/my-path/static/media/achieve.d78f80bc00d8026fd25c5e6edb3eed4c.svg",
     "static/media/achieve12.svg": "/my-path/static/media/achieve12.1f9cbf04335e43d271c3938cd2ae6271.svg",
     "static/media/achieve4.svg": "/my-path/static/media/achieve4.470f17a25f20993cdda7951ea644cfe8.svg",
-    "static/media/achieve10.svg": "/my-path/static/media/achieve10.c451176e693a4e9df861c6a94e2d491f.svg",
+    "static/media/achieve10.svg": "/my-path/static/media/achieve10.de0ea89b8489a09226437e5fc3b87281.svg",
     "static/media/achieve3.svg": "/my-path/static/media/achieve3.514fdda1f9f2fe45074b0039afb9cdc7.svg",
     "static/media/achieve9.svg": "/my-path/static/media/achieve9.0cf0149273c5c836be099150b0fe6f75.svg",
     "static/media/achieve2.svg": "/my-path/static/media/achieve2.3461639a132c3c1062af2ce3de563c25.svg",
@@ -53,11 +53,11 @@
     "static/media/arrowUpRight.svg": "/my-path/static/media/arrowUpRight.40d6024d363952ab9d0d81e98b2bc246.svg",
     "index.html": "/my-path/index.html",
     "main.75f8f6cc.css.map": "/my-path/static/css/main.75f8f6cc.css.map",
-    "main.d9256e83.js.map": "/my-path/static/js/main.d9256e83.js.map",
+    "main.d47e1d3e.js.map": "/my-path/static/js/main.d47e1d3e.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75f8f6cc.css",
-    "static/js/main.d9256e83.js"
+    "static/js/main.d47e1d3e.js"
   ]
 }

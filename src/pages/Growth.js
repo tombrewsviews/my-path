@@ -154,7 +154,8 @@ export default function Growth() {
         <CardSection2TextRight imgOne={leadership}>
           <p style={{ fontSize: "18px" }}>
             Managing and mentoring people has its challenges, but my team's
-            final success and delivered value outshine the hard times.
+            final success and delivered value outshine the hard times and
+            inevitable struggles.
             <br />
           </p>
         </CardSection2TextRight>
@@ -164,7 +165,8 @@ export default function Growth() {
         </h1>
         <CardSection2TextRight imgOne={awards}>
           <p style={{ fontSize: "18px" }}>
-            Awards
+            I believe the journey is more important than the destination, but
+            I'm very proud of our team's achievements at Exordo.
             <br />
             <br />
           </p>
@@ -187,9 +189,9 @@ export default function Growth() {
           ]}
         >
           <p style={{ fontSize: "18px" }}>
-            Patterns
-            <br />
-            <br />
+            I'm relentlessly searching for better experiences and bringing them
+            to our community as a Medium writer for UX Collective, the
+            Prototypr, and the Bootcamp!
           </p>
         </CardSection3TextRightFlip>
 
@@ -210,7 +212,11 @@ export default function Growth() {
           ]}
         >
           <p style={{ fontSize: "18px" }}>
-            Patterns2
+            I look for simplicity, clarity, and functional convenience when
+            designing a new pattern.
+            <br />
+            <br />
+            I've defined new practices in the design and engineering spaces.
             <br />
             <br />
           </p>
@@ -236,7 +242,8 @@ export default function Growth() {
           ]}
         >
           <p style={{ fontSize: "18px" }}>
-            KPIs
+            I'm goal and outcome-oriented. <br /> <br />I believe product teams
+            can achieve the most as autonomous and empowered business units.
             <br />
             <br />
           </p>
@@ -262,7 +269,7 @@ export default function Growth() {
           ]}
         >
           <p style={{ fontSize: "18px" }}>
-            Mentoring
+            I seek other people's feedback and advice and offer one when asked.
             <br />
             <br />
           </p>
@@ -288,7 +295,10 @@ export default function Growth() {
           ]}
         >
           <p style={{ fontSize: "18px" }}>
-            Transformation
+            I believe everyone in an organization has the potential to innovate.
+            <br />
+            <br />I take active leadership roles to give product teams the
+            ability to innovate.
             <br />
             <br />
           </p>
@@ -297,15 +307,48 @@ export default function Growth() {
         <CardSection3TextRightFlip
           imgOne={achieve11}
           imgTwo={achieve12}
-          textOne={["I've .", <br />, <br />, "Hori"]}
-          textTwo={["Pan.", <br />, <br />, "Micr."]}
+          textOne={[
+            "Radical Simplicity framework is a design thinking approach that works radically different from the conventional Design Thinking process.",
+            <br />,
+            <br />,
+            "There are no pre-defined or ordered steps. Instead, we focus on taking action. We can reduce, combine, or abstract system nodes.",
+            <br />,
+            <br />,
+            "Main benefits: ease of unlearning, perspective shift, complexity reduction, and reimagined constraints.",
+          ]}
+          textTwo={[
+            "Radical Insight framework helps me define what to avoid and how to align design direction with the target group I design for.",
+            <br />,
+            <br />,
+            "I ask myself three key questions and create a list of insights for each.",
+            <br />,
+            <br />,
+            "As a user:",
+            <br />,
+            "What do I know or have?",
+            <br />,
+            "What am I missing or don't know?",
+            <br />,
+            "What do I want to do and hate doing?",
+          ]}
         >
           <p style={{ fontSize: "18px" }}>
-            Processes
+            I like to make sense of the world around me. I believe efficiency in
+            asking questions and looking for insights is as essential as feature
+            delivery.
             <br />
             <br />
           </p>
         </CardSection3TextRightFlip>
+
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Failures</h1>
+        <CardSection2TextRight imgOne={awards}>
+          <p style={{ fontSize: "18px" }}>
+            Failures
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Courses</h1>
         <CardSection2TextRight imgOne={awards}>
@@ -322,6 +365,17 @@ export default function Growth() {
         <CardSection2TextRight imgOne={awards}>
           <p style={{ fontSize: "18px" }}>
             Books
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+
+        <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
+          Role Models
+        </h1>
+        <CardSection2TextRight imgOne={awards}>
+          <p style={{ fontSize: "18px" }}>
+            Role Models
             <br />
             <br />
           </p>

@@ -45,6 +45,7 @@ export default function cardSection3TextRightFlip({
           style={{
             display: "flex",
             flex: "1",
+            width: "250px",
             marginLeft: "48px",
             marginTop: "16px",
           }}

@@ -22,6 +22,7 @@ import achieve9 from "./../images/achieve9.svg";
 import achieve10 from "./../images/achieve10.svg";
 import achieve11 from "./../images/achieve11.svg";
 import achieve12 from "./../images/achieve12.svg";
+import fail from "./../images/failures.svg";
 
 export default function Growth() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -342,16 +343,18 @@ export default function Growth() {
         </CardSection3TextRightFlip>
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Failures</h1>
-        <CardSection2TextRight imgOne={awards}>
+        <CardSection2TextRight imgOne={fail}>
           <p style={{ fontSize: "18px" }}>
-            Failures
+            I've learned a lot from my past failures.
             <br />
-            <br />
+            <br />I became a better listener. <br />I can concisely communicate
+            my ideas. <br />I gather feedback before committing to a decision.
+            I'm curious about other people's perspectives.
           </p>
         </CardSection2TextRight>
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Courses</h1>
-        <CardSection2TextRight imgOne={awards}>
+        <CardSection2TextRight imgOne={fail}>
           <p style={{ fontSize: "18px" }}>
             Courses
             <br />

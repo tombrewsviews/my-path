@@ -3,7 +3,7 @@ import ModalFull from "./../components/modal";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import shield from "./../images/shield.png";
-import CardSection3TextRight from "./../components/cardSection3TextRight";
+import CardSection4TextRightFlip from "./../components/cardSection4TextRightFlip";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
 import CardSection3TextRightFlip from "./../components/cardSection3TextRightFlip.js";
 import skills from "./../images/skills.svg";
@@ -23,6 +23,20 @@ import achieve10 from "./../images/achieve10.svg";
 import achieve11 from "./../images/achieve11.svg";
 import achieve12 from "./../images/achieve12.svg";
 import fail from "./../images/failures.svg";
+import courses0 from "./../images/courses0.svg";
+import courses1 from "./../images/courses1.svg";
+import courses2 from "./../images/courses2.svg";
+import courses3 from "./../images/courses3.svg";
+import courses4 from "./../images/courses4.svg";
+import book1 from "./../images/book1.jpg";
+import book2 from "./../images/book2.jpg";
+import book3 from "./../images/book3.jpg";
+import book4 from "./../images/book4.jpg";
+import book5 from "./../images/book5.jpg";
+import book6 from "./../images/book6.jpg";
+import book7 from "./../images/book7.jpg";
+import book8 from "./../images/book8.jpg";
+import book9 from "./../images/book9.jpg";
 
 export default function Growth() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -354,9 +368,40 @@ export default function Growth() {
         </CardSection2TextRight>
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Courses</h1>
-        <CardSection2TextRight imgOne={fail}>
+        <CardSection2TextRight imgOne={courses0}>
           <p style={{ fontSize: "18px" }}>
-            Courses
+            I'm a self-taught design professional. I've learned primarily on the
+            job from people smarter than me, but I wrapped up a few design
+            courses on the way.
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={courses1}>
+          <p style={{ fontSize: "18px" }}>
+            I stay connected with my teammates and customers and keep improving
+            my communication skills.
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={courses2}>
+          <p style={{ fontSize: "18px" }}>
+            I
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={courses3}>
+          <p style={{ fontSize: "18px" }}>
+            I
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={courses4}>
+          <p style={{ fontSize: "18px" }}>
+            I
             <br />
             <br />
           </p>
@@ -365,13 +410,39 @@ export default function Growth() {
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
           Important Books
         </h1>
-        <CardSection2TextRight imgOne={awards}>
+        <CardSection4TextRightFlip
+          imgOne={book1}
+          imgTwo={book2}
+          imgThree={book3}
+        >
           <p style={{ fontSize: "18px" }}>
             Books
             <br />
             <br />
           </p>
-        </CardSection2TextRight>
+        </CardSection4TextRightFlip>
+        <CardSection4TextRightFlip
+          imgOne={book4}
+          imgTwo={book5}
+          imgThree={book6}
+        >
+          <p style={{ fontSize: "18px" }}>
+            Books
+            <br />
+            <br />
+          </p>
+        </CardSection4TextRightFlip>
+        <CardSection4TextRightFlip
+          imgOne={book7}
+          imgTwo={book8}
+          imgThree={book9}
+        >
+          <p style={{ fontSize: "18px" }}>
+            Books
+            <br />
+            <br />
+          </p>
+        </CardSection4TextRightFlip>
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
           Role Models

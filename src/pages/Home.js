@@ -71,7 +71,8 @@ export default function Home() {
               </ButtonIcon>
               <br />
               <br />
-              This is a breakdown of how I deal with my everyday challenges
+              Here's the breakdown of how I deliver the highest quality product
+              design
               <ButtonIcon
                 type="button"
                 buttonStyle="btn-no-padding"

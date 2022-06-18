@@ -100,7 +100,7 @@
 }
 
 .particles-bg-canvas-self {
-  background: #e2e7ee;
+  background: rgb(242 236 236);
 }
 
 @media (prefers-reduced-motion: no-preference) {

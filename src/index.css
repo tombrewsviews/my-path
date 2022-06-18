@@ -114,3 +114,8 @@ button {
 .ReactModal__Content--after-open {
   transform: translateY(0px);
 }
+
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}

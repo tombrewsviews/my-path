@@ -6,9 +6,10 @@ import shield from "./../images/shield.png";
 import CardSection4TextRightFlip from "./../components/cardSection4TextRightFlip";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
 import CardSection3TextRightFlip from "./../components/cardSection3TextRightFlip.js";
+import Footer from "./../components/footer.js";
+
 import skills from "./../images/skills.svg";
 import leadership from "./../images/leadership.svg";
-
 import awards from "./../images/awards.svg";
 import achieve from "./../images/achieve.svg";
 import achieve2 from "./../images/achieve2.svg";
@@ -28,6 +29,7 @@ import courses1 from "./../images/courses1.svg";
 import courses2 from "./../images/courses2.svg";
 import courses3 from "./../images/courses3.svg";
 import courses4 from "./../images/courses4.svg";
+import models from "./../images/models.jpg";
 import book1 from "./../images/book1.jpg";
 import book2 from "./../images/book2.jpg";
 import book3 from "./../images/book3.jpg";
@@ -188,6 +190,33 @@ export default function Growth() {
         </CardSection2TextRight>
 
         <CardSection3TextRightFlip
+          imgOne={achieve5}
+          imgTwo={achieve6}
+          textOne={[
+            "My top priority goal at SoftCo was to improve the existing Purchase-2-Pay platform and release the redesigned version as soon as possible.",
+            <br />,
+            <br />,
+            "Together with the engineering team, we had to make the most of Vaadin's front-end framework, the primary technical constraint. ",
+            <br />,
+            <br />,
+            "Customers loved the new version, and the company recorded 400% revenue growth the following year.",
+          ]}
+          textTwo={[
+            "Patient self-service apps were the highest priority at Greyfinch. One of them, the Appointment Widget, allows patients to schedule dental visits without calling the office. It generated quarter-million dollars for our customers in the first three months since its launch.",
+            <br />,
+            <br />,
+            "This widget was designed in a modular, embeddable way to enable use across websites and environments.",
+          ]}
+        >
+          <p style={{ fontSize: "18px" }}>
+            I'm goal and outcome-oriented. <br /> <br />I believe product teams
+            can achieve the most as autonomous and empowered business units.
+            <br />
+            <br />
+          </p>
+        </CardSection3TextRightFlip>
+
+        <CardSection3TextRightFlip
           imgOne={achieve}
           imgTwo={achieve2}
           textOne={[
@@ -232,33 +261,6 @@ export default function Growth() {
             <br />
             <br />
             I've defined new practices in the design and engineering spaces.
-            <br />
-            <br />
-          </p>
-        </CardSection3TextRightFlip>
-
-        <CardSection3TextRightFlip
-          imgOne={achieve5}
-          imgTwo={achieve6}
-          textOne={[
-            "My top priority goal at SoftCo was to improve the existing Purchase-2-Pay platform and release the redesigned version as soon as possible.",
-            <br />,
-            <br />,
-            "Together with the engineering team, we had to make the most of Vaadin's front-end framework, the primary technical constraint. ",
-            <br />,
-            <br />,
-            "Customers loved the new version, and the company recorded 400% revenue growth the following year.",
-          ]}
-          textTwo={[
-            "Patient self-service apps were the highest priority at Greyfinch. One of them, the Appointment Widget, allows patients to schedule dental visits without calling the office. It generated quarter-million dollars for our customers in the first three months since its launch.",
-            <br />,
-            <br />,
-            "This widget was designed in a modular, embeddable way to enable use across websites and environments.",
-          ]}
-        >
-          <p style={{ fontSize: "18px" }}>
-            I'm goal and outcome-oriented. <br /> <br />I believe product teams
-            can achieve the most as autonomous and empowered business units.
             <br />
             <br />
           </p>
@@ -447,7 +449,7 @@ export default function Growth() {
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>
           Role Models
         </h1>
-        <CardSection2TextRight imgOne={awards}>
+        <CardSection2TextRight imgOne={models}>
           <p style={{ fontSize: "18px" }}>
             Role Models
             <br />
@@ -455,6 +457,10 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
       </div>
+      <Footer
+        backgroundColor="rgb(242 236 236)"
+        onClick={openFromParent}
+      ></Footer>
     </div>
   );
 }

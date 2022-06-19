@@ -387,16 +387,20 @@ export default function Growth() {
             <br />
           </p>
         </CardSection2TextRight>
-        <CardSection2TextRight imgOne={courses2}>
+        <CardSection2TextRight imgOne={courses3}>
           <p style={{ fontSize: "18px" }}>
-            I
+            I started my adventure in engineering to communicate better and get
+            efficiently on the same page with developers. Now, I just love to
+            build things!
             <br />
             <br />
           </p>
         </CardSection2TextRight>
-        <CardSection2TextRight imgOne={courses3}>
+        <CardSection2TextRight imgOne={courses2}>
           <p style={{ fontSize: "18px" }}>
-            I
+            Jumping into the code and fixing problems give me the ultimate
+            control over the final user experience. I love to tweak animations
+            and come up with exciting interactions.
             <br />
             <br />
           </p>

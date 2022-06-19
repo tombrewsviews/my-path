@@ -152,8 +152,8 @@ export default function Routines() {
         <CardSection2TextRight imgOne={yearly2}>
           <p style={{ fontSize: "18px" }}>
             Team celebrations build engagement and motivation. I like to
-            organize online events where we share stories, play games, or hang
-            out before taking time off.
+            organize online events where we share stories, play games, and hang
+            out.
           </p>
         </CardSection2TextRight>
 

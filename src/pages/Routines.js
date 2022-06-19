@@ -10,6 +10,10 @@ import daily2 from "./../images/daily2-01.svg";
 import weekly from "./../images/weekly-01.svg";
 import quaterly1 from "./../images/quaterly-okrs.svg";
 import quaterly2 from "./../images/quaterly-thinking.svg";
+import yearly from "./../images/yearly.svg";
+import yearly1 from "./../images/yearly1.svg";
+import yearly2 from "./../images/yearly2.svg";
+import Footer from "./../components/footer.js";
 
 export default function Routines() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -131,12 +135,25 @@ export default function Routines() {
         }}
       >
         <h1 style={{ marginBottom: "32px" }}>All Year Round Routines</h1>
-        <CardSection2TextRight imgOne={weekly}>
+        <CardSection2TextRight imgOne={yearly}>
           <p style={{ fontSize: "18px" }}>
-            Daily routines are the hardest to stick with successfully, but the
-            progress starts here, every morning and every focus time. <br />
-            <br />I wasn't always into finding balance through routines. <br />
-            <br />
+            Strategic objectives must be tracked continuously and over time to
+            properly analyze customer and market behavior within the context of
+            opportunity cost and cost of inaction.
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={yearly1}>
+          <p style={{ fontSize: "18px" }}>
+            The reality in the tech space changes quickly. I track how the
+            industry evolves and obsess over new excellent products to make sure
+            my product team stays current.
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={yearly2}>
+          <p style={{ fontSize: "18px" }}>
+            Team celebrations build engagement and motivation. I like to
+            organize online events where we share stories, play games, or hang
+            out before taking time off.
           </p>
         </CardSection2TextRight>
 
@@ -181,7 +198,7 @@ export default function Routines() {
           Daily Routines
         </h1>
         <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
-          <p style={{ fontSize: "18px", paddingBottom: "300px" }}>
+          <p style={{ fontSize: "18px", paddingBottom: "100px" }}>
             Daily routines are the hardest to stick with successfully, but the
             progress starts every morning repeatedly. <br />
             <br />I wasn't always into finding balance through routines. <br />
@@ -194,6 +211,10 @@ export default function Routines() {
           </p>
         </CardSection3TextRight>
       </div>
+      <Footer
+        backgroundColor="rgb(242 236 236)"
+        onClick={openFromParent}
+      ></Footer>
     </div>
   );
 }

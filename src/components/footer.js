@@ -2,10 +2,14 @@ import React from "react";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import usecases from "./../images/usecases.jpg";
-import draw from "./../images/footerdraw.jpg";
+import draw from "./../images/footerHighlight.svg";
 import { ButtonIcon } from "./../components/buttonIcon";
 
 export default function Footer(props) {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div
       style={{
@@ -48,7 +52,7 @@ export default function Footer(props) {
               <img
                 style={{
                   width: "600px",
-                  filter: "drop-shadow(0px 16px 24px rgba(0,0,0,0.1))",
+                  filter: "drop-shadow(0px 16px 24px rgba(216,210,210,0.5))",
                   borderRadius: "8px",
                 }}
                 src={usecases}
@@ -57,6 +61,92 @@ export default function Footer(props) {
           </div>
         </div>
       </AnimationOnScroll>
+      <div
+        style={{
+          backgroundColor: "rgb(242 236 236)",
+          width: "100%",
+          display: "flex",
+          flex: "1",
+          flexDirection: "column",
+          alignItems: "center",
+          position: "absolute",
+          bottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            justifyContent: "center",
+            flexDirection: "row",
+          }}
+        >
+          <ButtonIcon
+            onClick={() => openInNewTab("https://dribbble.com/tmass")}
+          >
+            <p
+              style={{
+                color: "#6e7699",
+                fontFamily: "Poppins",
+                fontWeight: "600",
+                fontSize: "14px",
+                marginLeft: "20px",
+                marginRight: "20px",
+                width: "1px",
+                lineHeight: "15px",
+              }}
+            >
+              ドリブル
+            </p>
+          </ButtonIcon>
+          <ButtonIcon
+            onClick={() => openInNewTab("http://github.com/tombrewsviews")}
+          >
+            <p
+              style={{
+                color: "#6e7699",
+                fontFamily: "Poppins",
+                fontWeight: "600",
+                fontSize: "14px",
+                marginLeft: "20px",
+                marginRight: "20px",
+                width: "1px",
+                lineHeight: "15px",
+              }}
+            >
+              ギットハブ
+            </p>
+          </ButtonIcon>
+          <ButtonIcon
+            onClick={() => openInNewTab("https://medium.com/@tomparandyk")}
+          >
+            <p
+              style={{
+                color: "#6e7699",
+                fontFamily: "Poppins",
+                fontWeight: "600",
+                fontSize: "14px",
+                marginLeft: "20px",
+                marginRight: "20px",
+                width: "1px",
+                lineHeight: "15px",
+              }}
+            >
+              中くらい
+            </p>
+          </ButtonIcon>
+        </div>
+        <p
+          style={{
+            color: "#6e7699",
+            fontFamily: "Poppins",
+            fontWeight: "400",
+            fontSize: "14px",
+            marginTop: "32px",
+          }}
+        >
+          Made from scratch and with React and excruciating love for every
+          pixel. June 2022.
+        </p>
+      </div>
     </div>
   );
 }

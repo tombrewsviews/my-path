@@ -5,11 +5,9 @@ import "animate.css/animate.min.css";
 import chess from "./../images/chess.jpg";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
-import daily1 from "./../images/daily1-01.svg";
-import daily2 from "./../images/daily2-01.svg";
+
 import weekly from "./../images/weekly-01.svg";
-import quaterly1 from "./../images/quaterly-okrs.svg";
-import quaterly2 from "./../images/quaterly-thinking.svg";
+import Footer from "./../components/footer.js";
 
 export default function Processes() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -142,6 +140,10 @@ export default function Processes() {
           </p>
         </CardSection2TextRight>
       </div>
+      <Footer
+        backgroundColor="rgb(242 236 236)"
+        onClick={openFromParent}
+      ></Footer>
     </div>
   );
 }

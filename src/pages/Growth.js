@@ -42,6 +42,9 @@ import book9 from "./../images/book9.jpg";
 import book10 from "./../images/book10.jpg";
 import book11 from "./../images/book11.jpg";
 import book12 from "./../images/book12.jpg";
+import book13 from "./../images/book13.jpg";
+import book14 from "./../images/book14.jpg";
+import book15 from "./../images/book15.jpg";
 
 export default function Growth() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -503,6 +506,29 @@ export default function Growth() {
             ways of taking calculated risks. Problem space research, long-term
             trends, and risk calculations became the foundation of my product
             strategy creation process.
+            <br />
+            <br />
+          </p>
+        </CardSection4TextRightFlip>
+        <CardSection4TextRightFlip
+          imgOne={book13}
+          imgTwo={book14}
+          imgThree={book15}
+          textOne={
+            "Time slows down. Self vanishes. Action and awareness merge. That's the flow."
+          }
+          textTwo={
+            "We won't ever be perfect, but in the pursuit of perfection we will achieve greatness."
+          }
+          textThree={
+            "Humanocracy creates organizations as amazing as the people insight them."
+          }
+        >
+          <p style={{ fontSize: "16px" }}>
+            Change has to happen on every level in the product-oriented
+            organization. It starts with creating a flow-optimized working
+            environment and pursuing perfection without overcomplicating the
+            processes.
             <br />
             <br />
           </p>

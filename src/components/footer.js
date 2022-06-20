@@ -4,6 +4,9 @@ import "animate.css/animate.min.css";
 import usecases from "./../images/usecases.jpg";
 import draw from "./../images/footerHighlight.svg";
 import { ButtonIcon } from "./../components/buttonIcon";
+import dribbble from "./../images/dribbble.svg";
+import code from "./../images/code.svg";
+import medium from "./../images/medium.svg";
 
 export default function Footer(props) {
   const openInNewTab = (url) => {
@@ -41,6 +44,7 @@ export default function Footer(props) {
               top: "-350px",
               left: "300px",
               zIndex: "2",
+              width: "500px",
             }}
           >
             <ButtonIcon
@@ -82,56 +86,91 @@ export default function Footer(props) {
           <ButtonIcon
             onClick={() => openInNewTab("https://dribbble.com/tmass")}
           >
-            <p
-              style={{
-                color: "#6e7699",
-                fontFamily: "Poppins",
-                fontWeight: "600",
-                fontSize: "14px",
-                marginLeft: "20px",
-                marginRight: "20px",
-                width: "1px",
-                lineHeight: "15px",
-              }}
-            >
-              ドリブル
-            </p>
+            <div>
+              <img
+                style={{
+                  width: "16px",
+                  position: "relative",
+                  top: "10px",
+                  left: "7px",
+                }}
+                src={dribbble}
+              />
+              <p
+                style={{
+                  color: "#6e7699",
+                  fontFamily: "Poppins",
+                  fontWeight: "600",
+                  fontSize: "14px",
+                  marginLeft: "20px",
+                  marginRight: "20px",
+                  width: "1px",
+                  lineHeight: "15px",
+                }}
+              >
+                ドリブル
+              </p>
+            </div>
           </ButtonIcon>
           <ButtonIcon
             onClick={() => openInNewTab("http://github.com/tombrewsviews")}
           >
-            <p
-              style={{
-                color: "#6e7699",
-                fontFamily: "Poppins",
-                fontWeight: "600",
-                fontSize: "14px",
-                marginLeft: "20px",
-                marginRight: "20px",
-                width: "1px",
-                lineHeight: "15px",
-              }}
-            >
-              ギットハブ
-            </p>
+            <div>
+              <img
+                style={{
+                  width: "16px",
+                  position: "relative",
+                  top: "10px",
+                  left: "7px",
+                }}
+                src={code}
+                alt=""
+              />
+              <p
+                style={{
+                  color: "#6e7699",
+                  fontFamily: "Poppins",
+                  fontWeight: "600",
+                  fontSize: "14px",
+                  marginLeft: "20px",
+                  marginRight: "20px",
+                  width: "1px",
+                  lineHeight: "15px",
+                }}
+              >
+                ギットハブ
+              </p>
+            </div>
           </ButtonIcon>
           <ButtonIcon
             onClick={() => openInNewTab("https://medium.com/@tomparandyk")}
           >
-            <p
-              style={{
-                color: "#6e7699",
-                fontFamily: "Poppins",
-                fontWeight: "600",
-                fontSize: "14px",
-                marginLeft: "20px",
-                marginRight: "20px",
-                width: "1px",
-                lineHeight: "15px",
-              }}
-            >
-              中くらい
-            </p>
+            <div>
+              <img
+                style={{
+                  width: "16px",
+                  position: "relative",
+                  top: "10px",
+                  left: "7px",
+                }}
+                src={medium}
+                alt=""
+              />
+              <p
+                style={{
+                  color: "#6e7699",
+                  fontFamily: "Poppins",
+                  fontWeight: "600",
+                  fontSize: "14px",
+                  marginLeft: "20px",
+                  marginRight: "20px",
+                  width: "1px",
+                  lineHeight: "15px",
+                }}
+              >
+                中くらい
+              </p>
+            </div>
           </ButtonIcon>
         </div>
         <p

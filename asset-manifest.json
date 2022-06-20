@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-path/static/css/main.1f6a81fb.css",
-    "main.js": "/my-path/static/js/main.6dc8e8a2.js",
+    "main.js": "/my-path/static/js/main.6b8f6426.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/SANew1.jpg": "/my-path/static/media/SANew1.2e25ae15154ae3b8b807.jpg",
@@ -31,6 +31,7 @@
     "static/media/book4.jpg": "/my-path/static/media/book4.eb052f58730ae79540a6.jpg",
     "static/media/footerHighlight.svg": "/my-path/static/media/footerHighlight.7faca2ff266bd3bb58b08fc61a8b9d7d.svg",
     "static/media/Calears4.jpg": "/my-path/static/media/Calears4.3414fe44981f64b3ff98.jpg",
+    "static/media/book15.jpg": "/my-path/static/media/book15.4065a0f07b6d0083a09d.jpg",
     "static/media/book6.jpg": "/my-path/static/media/book6.6ee6efc822129d730d35.jpg",
     "static/media/book9.jpg": "/my-path/static/media/book9.1ca79c79de2b7fcb409a.jpg",
     "static/media/clock.jpg": "/my-path/static/media/clock.27a9c2ba472ca26d01fd.jpg",
@@ -44,7 +45,9 @@
     "static/media/yearly.svg": "/my-path/static/media/yearly.161c41ec6f0aebaaa1941bc40b60bb31.svg",
     "static/media/courses3.svg": "/my-path/static/media/courses3.ae9491869f763ef6c696cdb1d85acc29.svg",
     "static/media/book8.jpg": "/my-path/static/media/book8.503801cc01ebe00d532c.jpg",
+    "static/media/book13.jpg": "/my-path/static/media/book13.ba6d98bed5b906983b7c.jpg",
     "static/media/book2.jpg": "/my-path/static/media/book2.d86f6630ee7c50839ca2.jpg",
+    "static/media/book14.jpg": "/my-path/static/media/book14.ab141503a499330b67e4.jpg",
     "static/media/quaterly-thinking.svg": "/my-path/static/media/quaterly-thinking.56ff7759139de1030998397d820264a3.svg",
     "static/media/courses2.svg": "/my-path/static/media/courses2.a3d616979d5da87c8a4102b59f81777d.svg",
     "static/media/daily1-01.svg": "/my-path/static/media/daily1-01.59e0f2ede335fd3e0e556eab88b0afc4.svg",
@@ -80,11 +83,11 @@
     "static/media/arrowUpRight.svg": "/my-path/static/media/arrowUpRight.40d6024d363952ab9d0d81e98b2bc246.svg",
     "index.html": "/my-path/index.html",
     "main.1f6a81fb.css.map": "/my-path/static/css/main.1f6a81fb.css.map",
-    "main.6dc8e8a2.js.map": "/my-path/static/js/main.6dc8e8a2.js.map",
+    "main.6b8f6426.js.map": "/my-path/static/js/main.6b8f6426.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6a81fb.css",
-    "static/js/main.6dc8e8a2.js"
+    "static/js/main.6b8f6426.js"
   ]
 }

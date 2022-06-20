@@ -1,7 +1,7 @@
 import React from "react";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
-import "./cardSection3TextRightFlip.css";
+import "./cardSectionRightFlip.css";
 
 export default function cardSection3TextRightFlip({
   children,
@@ -43,7 +43,7 @@ export default function cardSection3TextRightFlip({
         </div>
       </AnimationOnScroll>
       <div style={{ width: "16px", height: "16px" }}></div>
-      <AnimationOnScroll animateIn="fadeInLeft" duration={0.5}>
+      <AnimationOnScroll animateIn="fadeInLeft" duration={0.3}>
         <div className="flip-card-wrap">
           <div className="flip-card-inner">
             <div className="flip-card-front">

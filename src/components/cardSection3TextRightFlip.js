@@ -1,7 +1,7 @@
 import React from "react";
 import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
-import "./cardSection3TextRightFlip.css";
+import "./cardSectionRightFlip.css";
 
 export default function cardSection3TextRightFlip({
   children,

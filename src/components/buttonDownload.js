@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 
 function ButtonDownload(props) {
   return (
-    <Link
-      style={{ textDecoration: "none" }}
-      to={props.src}
+    <a
+      href="/public/Case_Studies_2022_Tom_Parandyk.pdf"
       target="_blank"
-      download
+      rel="noopener noreferrer"
     >
       <p
         style={{
@@ -23,7 +22,7 @@ function ButtonDownload(props) {
       >
         {props.text}
       </p>
-    </Link>
+    </a>
   );
 }
 

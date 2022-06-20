@@ -159,7 +159,7 @@ export default function Growth() {
       >
         <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>Growth Paths</h1>
         <CardSection2TextRight imgOne={skills}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I believe change is the only constant. <br />
             <br />
             I've been upskilling myself continuously throughout my career. I
@@ -169,7 +169,7 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={leadership}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Managing and mentoring people has its challenges, but my team's
             final success and delivered value outshine the hard times and
             inevitable struggles.
@@ -181,7 +181,7 @@ export default function Growth() {
           Achievements
         </h1>
         <CardSection2TextRight imgOne={awards}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I believe the journey is more important than the destination, but
             I'm very proud of our team's achievements at Exordo.
             <br />
@@ -208,7 +208,7 @@ export default function Growth() {
             "This widget was designed in a modular, embeddable way to enable use across websites and environments.",
           ]}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I'm goal and outcome-oriented. <br /> <br />I believe product teams
             can achieve the most as autonomous and empowered business units.
             <br />
@@ -232,7 +232,7 @@ export default function Growth() {
             "Microsoft and HMH featured Panels successfully in their products; Microsoft introduced it in Azure's cloud management app. HMH built an interactive library for secondary students in the US.",
           ]}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I'm relentlessly searching for better experiences and bringing them
             to our community as a Medium writer for UX Collective, the
             Prototypr, and the Bootcamp!
@@ -255,7 +255,7 @@ export default function Growth() {
             "My state machine pattern has two states called Together and Separate and allows the creation of any UX flow while keeping a straightforward structure. ",
           ]}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I look for simplicity, clarity, and functional convenience when
             designing a new pattern.
             <br />
@@ -285,7 +285,7 @@ export default function Growth() {
             "It's incredibly inspiring to see people improve. I've become a better designer since I started mentoring other designers.",
           ]}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I seek other people's feedback and advice and offer one when asked.
             <br />
             <br />
@@ -311,7 +311,7 @@ export default function Growth() {
             "The transformation wasn't complete by the time when my contract ended, but the new mindset persevered.",
           ]}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I believe everyone in an organization has the potential to innovate.
             <br />
             <br />I take active leadership roles to give product teams the
@@ -349,7 +349,7 @@ export default function Growth() {
             "What do I want to do and hate doing?",
           ]}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I like to make sense of the world around me. I believe efficiency in
             asking questions and looking for insights is as essential as feature
             delivery.
@@ -360,7 +360,7 @@ export default function Growth() {
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Failures</h1>
         <CardSection2TextRight imgOne={fail}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I've learned a lot from my past failures.
             <br />
             <br />I became a better listener. <br />I can concisely communicate
@@ -371,7 +371,7 @@ export default function Growth() {
 
         <h1 style={{ marginTop: "100px", marginBottom: "32px" }}>Courses</h1>
         <CardSection2TextRight imgOne={courses0}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I'm a self-taught design professional. I've learned primarily on the
             job from people smarter than me, but I wrapped up a few design
             courses on the way.
@@ -380,7 +380,7 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={courses1}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I stay connected with my teammates and customers and keep improving
             my communication skills.
             <br />
@@ -388,7 +388,7 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={courses3}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I started my adventure in engineering to communicate better and get
             efficiently on the same page with developers. Now, I just love to
             build things!
@@ -397,17 +397,19 @@ export default function Growth() {
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={courses2}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
+            I love to tweak animations and come up with exciting interactions.
             Jumping into the code and fixing problems give me the ultimate
-            control over the final user experience. I love to tweak animations
-            and come up with exciting interactions.
+            control over the final user experience.
             <br />
             <br />
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={courses4}>
-          <p style={{ fontSize: "18px" }}>
-            I
+          <p style={{ fontSize: "16px" }}>
+            The power of Machine Learning is breathtaking! I've already built
+            chatbots with IBM Watson, and next, I'd like to dive deep into
+            personalized experiences.
             <br />
             <br />
           </p>
@@ -420,8 +422,9 @@ export default function Growth() {
           imgOne={book1}
           imgTwo={book2}
           imgThree={book3}
+          textOne={"THis is it"}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Books
             <br />
             <br />
@@ -432,7 +435,7 @@ export default function Growth() {
           imgTwo={book5}
           imgThree={book6}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Books
             <br />
             <br />
@@ -443,7 +446,7 @@ export default function Growth() {
           imgTwo={book8}
           imgThree={book9}
         >
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Books
             <br />
             <br />
@@ -454,7 +457,7 @@ export default function Growth() {
           Role Models
         </h1>
         <CardSection2TextRight imgOne={models}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Role Models
             <br />
             <br />

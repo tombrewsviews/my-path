@@ -132,7 +132,7 @@ export default function Processes() {
           All Year Round Routines
         </h1>
         <CardSection2TextRight imgOne={weekly}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Daily routines are the hardest to stick with successfully, but the
             progress starts here, every morning and every focus time. <br />
             <br />I wasn't always into finding balance through routines. <br />

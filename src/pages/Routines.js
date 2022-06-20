@@ -136,21 +136,21 @@ export default function Routines() {
       >
         <h1 style={{ marginBottom: "32px" }}>All Year Round Routines</h1>
         <CardSection2TextRight imgOne={yearly}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Strategic objectives must be tracked continuously and over time to
             properly analyze customer and market behavior within the context of
             opportunity cost and cost of inaction.
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={yearly1}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             The reality in the tech space changes quickly. I track how the
             industry evolves and obsess over new excellent products to make sure
             my product team stays current.
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={yearly2}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             Team celebrations build engagement and motivation. I like to
             organize online events where we share stories, play games, and hang
             out.
@@ -161,7 +161,7 @@ export default function Routines() {
           Quaterly Routines
         </h1>
         <CardSection2TextRight imgOne={quaterly1}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             People tell me I'm a hyper-achiever. I believe in autonomy and team
             empowerment. I find OKRs very helpful in tracking team and personal
             performance. The outcomes matter more than outputs.
@@ -170,7 +170,7 @@ export default function Routines() {
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={quaterly2}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             The inspiration for Thinking Weeks came from Gates and Musk, who
             spend a lot of focus on learning in a solitary environment. I
             prioritize reading, one-2-one brainstorming discussions, and active
@@ -184,7 +184,7 @@ export default function Routines() {
           Weekly Routines
         </h1>
         <CardSection2TextRight imgOne={weekly}>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "16px" }}>
             I keep in touch with my team weekly and monthly. I tend to avoid
             recurring calls as those reduce the engagement and kill the sense of
             relationship over time. I make myself available to my team and make
@@ -198,7 +198,7 @@ export default function Routines() {
           Daily Routines
         </h1>
         <CardSection3TextRight imgOne={daily1} imgTwo={daily2}>
-          <p style={{ fontSize: "18px", paddingBottom: "100px" }}>
+          <p style={{ fontSize: "16px", paddingBottom: "100px" }}>
             Daily routines are the hardest to stick with successfully, but the
             progress starts every morning repeatedly. <br />
             <br />I wasn't always into finding balance through routines. <br />

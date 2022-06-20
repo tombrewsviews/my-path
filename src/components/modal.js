@@ -242,7 +242,7 @@ function ModalFull(props) {
               </p>
               <ButtonDownload
                 src="Case_Studies_2022_Tom_Parandyk.pdf"
-                text="Show More Case Studies"
+                text="Download More Case Studies"
               />
             </div>
             <div

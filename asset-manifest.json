@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-path/static/css/main.2c037e14.css",
-    "main.js": "/my-path/static/js/main.85e3a8a7.js",
+    "main.css": "/my-path/static/css/main.1f6a81fb.css",
+    "main.js": "/my-path/static/js/main.9ec61d07.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/SANew1.jpg": "/my-path/static/media/SANew1.2e25ae15154ae3b8b807.jpg",
@@ -23,7 +23,7 @@
     "static/media/Poppins-Black.ttf": "/my-path/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "static/media/Calears5.jpg": "/my-path/static/media/Calears5.26ffc7b5c13fcc852360.jpg",
     "static/media/weekly-01.svg": "/my-path/static/media/weekly-01.e81c1a99831463d2f006207b63a06fde.svg",
-    "static/media/usecases.jpg": "/my-path/static/media/usecases.3dfc3d3a6fb7ca883258.jpg",
+    "static/media/usecases.jpg": "/my-path/static/media/usecases.e585e510ea35ed8c54f5.jpg",
     "static/media/SANew3.jpg": "/my-path/static/media/SANew3.2a3597adb1328f0d5372.jpg",
     "static/media/book3.jpg": "/my-path/static/media/book3.3f978d6627f2fd79c080.jpg",
     "static/media/book5.jpg": "/my-path/static/media/book5.e9f303236673f2ea956e.jpg",
@@ -38,7 +38,9 @@
     "static/media/courses4.svg": "/my-path/static/media/courses4.e1ca5dd9c39296efa3edf2844b61681a.svg",
     "static/media/courses1.svg": "/my-path/static/media/courses1.198f54332edb13f8147abbd611ce9102.svg",
     "static/media/awards.svg": "/my-path/static/media/awards.c440db99d8b097647e03f87c6c63cca7.svg",
+    "static/media/book11.jpg": "/my-path/static/media/book11.062fffa4f7db89b61def.jpg",
     "static/media/courses0.svg": "/my-path/static/media/courses0.59eb5baed56bff2f26c54e4f1581363d.svg",
+    "static/media/book12.jpg": "/my-path/static/media/book12.186f4eb195bb7f5b66de.jpg",
     "static/media/yearly.svg": "/my-path/static/media/yearly.161c41ec6f0aebaaa1941bc40b60bb31.svg",
     "static/media/courses3.svg": "/my-path/static/media/courses3.ae9491869f763ef6c696cdb1d85acc29.svg",
     "static/media/book8.jpg": "/my-path/static/media/book8.503801cc01ebe00d532c.jpg",
@@ -49,6 +51,7 @@
     "static/media/book1.jpg": "/my-path/static/media/book1.f02e9e26405c68e70cfd.jpg",
     "static/media/achieve8.svg": "/my-path/static/media/achieve8.295baa38aeea8b6637595dea18d8c09f.svg",
     "static/media/chess.jpg": "/my-path/static/media/chess.7bcf0d22e2cf8d15ec3d.jpg",
+    "static/media/book10.jpg": "/my-path/static/media/book10.e5fd95acbd306c81898b.jpg",
     "static/media/achieve11.svg": "/my-path/static/media/achieve11.50ab6460280156f7244c341bb16c3b79.svg",
     "static/media/achieve6.svg": "/my-path/static/media/achieve6.3cb3cf46de46c15f29c913a8d8232a64.svg",
     "static/media/skills.svg": "/my-path/static/media/skills.3477f9dca61bf1c8c0c9ca7fa43a0296.svg",
@@ -73,12 +76,12 @@
     "static/media/arrow.svg": "/my-path/static/media/arrow.f5b83ec246ab359df84b492f54e6ebc2.svg",
     "static/media/arrowUpRight.svg": "/my-path/static/media/arrowUpRight.40d6024d363952ab9d0d81e98b2bc246.svg",
     "index.html": "/my-path/index.html",
-    "main.2c037e14.css.map": "/my-path/static/css/main.2c037e14.css.map",
-    "main.85e3a8a7.js.map": "/my-path/static/js/main.85e3a8a7.js.map",
+    "main.1f6a81fb.css.map": "/my-path/static/css/main.1f6a81fb.css.map",
+    "main.9ec61d07.js.map": "/my-path/static/js/main.9ec61d07.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c037e14.css",
-    "static/js/main.85e3a8a7.js"
+    "static/css/main.1f6a81fb.css",
+    "static/js/main.9ec61d07.js"
   ]
 }

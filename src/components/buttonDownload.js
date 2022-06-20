@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ButtonDownload(props) {
   return (
     <a
-      href="/public/Case_Studies_2022_Tom_Parandyk.pdf"
+      href="Case_Studies_2022_Tom_Parandyk.pdf"
       target="_blank"
       rel="noopener noreferrer"
     >

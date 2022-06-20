@@ -7,6 +7,9 @@ import CardSection3TextRight from "./../components/cardSection3TextRight";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
 
 import leader1 from "./../images/leader1.svg";
+import leader2 from "./../images/leader2.svg";
+import leader3 from "./../images/leader3.svg";
+
 import Footer from "./../components/footer.js";
 
 export default function Processes() {
@@ -131,10 +134,30 @@ export default function Processes() {
         <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>Leadership</h1>
         <CardSection2TextRight imgOne={leader1}>
           <p style={{ fontSize: "16px" }}>
-            Daily routines are the hardest to stick with successfully, but the
-            progress starts here, every morning and every focus time. <br />
-            <br />I wasn't always into finding balance through routines. <br />
+            The best athletes aren't focused on being the best but on constant
+            self-improvement. When you stop stressing about the outcome and
+            focus on the process, a considerable burden is lifted off your
+            shoulders. Research shows that concentrating on the process is best
+            for performance and motivation.
             <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={leader2}>
+          <p style={{ fontSize: "16px" }}>
+            I like this visual as much as I want to know the why behind my work.
+            Purpose and impact drive my motivation towards improvement and
+            delight. I believe impeccably designed software has the power to
+            change people's lives.
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={leader3}>
+          <p style={{ fontSize: "16px" }}>
+            With the proper focus, mission, goals, and actions leading a product
+            team towards success is a matter of communication.
+            <br />
+            <br />I tend to set ambitious goals and follow up with ambitious
+            actions. My long-term goal is to dominate, not compete.
           </p>
         </CardSection2TextRight>
       </div>

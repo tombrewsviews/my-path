@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 function ButtonDownload(props) {
   return (
-    <Link
-      style={{ textDecoration: "none" }}
-      to={props.src}
-      target="_blank"
-      download
-    >
+    // <Link
+    //   style={{ textDecoration: "none" }}
+    //   to={props.src}
+    //   target="_blank"
+    //   download
+    // >
+    <a style={{ textDecoration: "none" }} href={props.src} target="_blank">
       <p
         style={{
           color: "#323232",
@@ -23,7 +24,8 @@ function ButtonDownload(props) {
       >
         {props.text}
       </p>
-    </Link>
+    </a>
+    // </Link>
   );
 }
 

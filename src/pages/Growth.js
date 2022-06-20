@@ -39,6 +39,9 @@ import book6 from "./../images/book6.jpg";
 import book7 from "./../images/book7.jpg";
 import book8 from "./../images/book8.jpg";
 import book9 from "./../images/book9.jpg";
+import book10 from "./../images/book10.jpg";
+import book11 from "./../images/book11.jpg";
+import book12 from "./../images/book12.jpg";
 
 export default function Growth() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -422,21 +425,42 @@ export default function Growth() {
           imgOne={book1}
           imgTwo={book2}
           imgThree={book3}
-          textOne={"THis is it"}
+          textOne={"The most important things are what we don’t know."}
+          textTwo={
+            "Coaching and developing the people is the most important responsibility of strong product leaders."
+          }
+          textThree={
+            "It's very difficult to have a meaningful life without meaningful work."
+          }
         >
           <p style={{ fontSize: "16px" }}>
-            Books
+            Marty Cagan's books align well with my view on autonomy and
+            empowerment of successful product teams. <br />
             <br />
-            <br />
+            The validation framework makes a big difference from the typical
+            requirements hand-off process.
           </p>
         </CardSection4TextRightFlip>
         <CardSection4TextRightFlip
           imgOne={book4}
           imgTwo={book5}
           imgThree={book6}
+          textOne={[
+            "I want people who are problems solvers and willing to take initiative.",
+            <br />,
+            "I want people working for me who act like they own the place.",
+          ]}
+          textTwo={
+            "Believe in people more than they beilive in themselves, and push then to be more courageous."
+          }
+          textThree={
+            "Greatness is not a function of circumstance. Greatness is largely a matter of conscious choice and discipline."
+          }
         >
           <p style={{ fontSize: "16px" }}>
-            Books
+            The best coaching and mentoring are invisible to other people.
+            Making it part of the processes and routines helps me run product
+            teams effectively.
             <br />
             <br />
           </p>
@@ -445,9 +469,40 @@ export default function Growth() {
           imgOne={book7}
           imgTwo={book8}
           imgThree={book9}
+          textOne={"All of us are smarter than any of us."}
+          textTwo={"We can't always trust what we see when we look inward."}
+          textThree={
+            "Making the simple complicated is common place; making the complicated simple, that's creativity."
+          }
         >
           <p style={{ fontSize: "16px" }}>
-            Books
+            The path to a great product is messy. Listening to my team, helping
+            my teammates become more self-aware, and driving change with an
+            iterative approach makes the journey enjoyable.
+            <br />
+            <br />
+          </p>
+        </CardSection4TextRightFlip>
+        <CardSection4TextRightFlip
+          imgOne={book10}
+          imgTwo={book11}
+          imgThree={book12}
+          textOne={
+            "Resilience is more important than stability. Consistence is more important than intensity."
+          }
+          textTwo={
+            "To talk about new success we need to be ok taking new risks."
+          }
+          textThree={
+            "To try and fail is at least to learn; to fail to try is to suffer the inestimable loss of what might have been."
+          }
+        >
+          <p style={{ fontSize: "16px" }}>
+            Since there is no innovation without change and no change without
+            risk, I've spent a lot of time learning about the most optimized
+            ways of taking calculated risks. Problem space research, long-term
+            trends, and risk calculations became the foundation of my product
+            strategy creation process.
             <br />
             <br />
           </p>
@@ -458,7 +513,9 @@ export default function Growth() {
         </h1>
         <CardSection2TextRight imgOne={models}>
           <p style={{ fontSize: "16px" }}>
-            Role Models
+            I wish I had access to the internet when I was a teenager.
+            Discovering the works of great designers and thinkers changed my
+            approach to everything I do and believe.
             <br />
             <br />
           </p>

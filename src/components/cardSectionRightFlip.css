@@ -42,7 +42,7 @@
 
 /* Position the front and back side */
 .flip-card-front,
-.flip-card-back-dark,
+.flip-card-back-quote,
 .flip-card-back {
   position: absolute;
   width: 100%;
@@ -72,14 +72,16 @@
   white-space: pre-line;
 }
 
-.flip-card-back-dark {
-  background-color: #404040;
+.flip-card-back-quote {
+  background-color: #3c61ed;
   color: white;
   transform: rotateY(180deg);
   border-radius: 24px;
   padding: 32px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
-  text-align: left;
-  white-space: pre-line;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

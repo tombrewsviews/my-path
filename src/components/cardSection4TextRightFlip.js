@@ -27,7 +27,7 @@ export default function cardSection3TextRightFlip({
             <div className="flip-card-front">
               <img src={imgOne} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back">{textOne}</div>
+            <div className="flip-card-back-quote">{textOne}</div>
           </div>
         </div>
       </AnimationOnScroll>
@@ -38,7 +38,7 @@ export default function cardSection3TextRightFlip({
             <div className="flip-card-front">
               <img src={imgTwo} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back">{textTwo}</div>
+            <div className="flip-card-back-quote">{textTwo}</div>
           </div>
         </div>
       </AnimationOnScroll>
@@ -49,7 +49,7 @@ export default function cardSection3TextRightFlip({
             <div className="flip-card-front">
               <img src={imgThree} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back">{textThree}</div>
+            <div className="flip-card-back-quote">{textThree}</div>
           </div>
         </div>
       </AnimationOnScroll>

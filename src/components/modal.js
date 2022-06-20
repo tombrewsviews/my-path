@@ -241,8 +241,8 @@ function ModalFull(props) {
                 Selected Product Design Case Studies
               </p>
               <ButtonDownload
-                src="Case_Studies_2022_Tom_Parandyk.pdf"
-                text="Download More Case Studies"
+                src="https://tombrewsviews.github.io/files/Case_Studies_2022_Tom_Parandyk.pdf?raw=true"
+                text="More Case Studies"
               />
             </div>
             <div

@@ -6,7 +6,7 @@ import chess from "./../images/chess.jpg";
 import CardSection3TextRight from "./../components/cardSection3TextRight";
 import CardSection2TextRight from "./../components/cardSection2TextRight";
 
-import weekly from "./../images/weekly-01.svg";
+import leader1 from "./../images/leader1.svg";
 import Footer from "./../components/footer.js";
 
 export default function Processes() {
@@ -128,10 +128,8 @@ export default function Processes() {
           backgroundColor: "#F8E088",
         }}
       >
-        <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>
-          All Year Round Routines
-        </h1>
-        <CardSection2TextRight imgOne={weekly}>
+        <h1 style={{ color: "#1C2327", marginBottom: "32px" }}>Leadership</h1>
+        <CardSection2TextRight imgOne={leader1}>
           <p style={{ fontSize: "16px" }}>
             Daily routines are the hardest to stick with successfully, but the
             progress starts here, every morning and every focus time. <br />

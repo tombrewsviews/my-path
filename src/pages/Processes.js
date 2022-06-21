@@ -25,6 +25,7 @@ import habit11 from "./../images/habit11.svg";
 import habit12 from "./../images/habit12.svg";
 
 import product1 from "./../images/product1.svg";
+import product2 from "./../images/product2.jpg";
 
 import Footer from "./../components/footer.js";
 
@@ -268,6 +269,18 @@ export default function Processes() {
             I've done the research, ideation, prototyping, and testing in the
             past, including tracking usability metrics and KPIs with tools like
             Mixpanel and Amplitude.
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={product2}>
+          <p style={{ fontSize: "16px" }}>
+            I've done quantitative and qualitative research in the past. Each
+            technique has its advantages, but I find interviews to work best at
+            sparking the highest level of empathy with the customer. <br />{" "}
+            <br />
+            It's a lot of work to talk to customers consistently. Still, one
+            interview weekly is an absolute minimum for everyone on the product
+            team, including engineers.
             <br />
           </p>
         </CardSection2TextRight>

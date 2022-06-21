@@ -262,7 +262,12 @@ export default function Processes() {
         </h1>
         <CardSection2TextRight imgOne={product1}>
           <p style={{ fontSize: "16px" }}>
-            The b
+            The Design Thinking process is at the foundation of my creative
+            approach. I would call myself a full-stack designer with a strong
+            inclination toward engineering. <br /> <br />
+            I've done the research, ideation, prototyping, and testing in the
+            past, including tracking usability metrics and KPIs with tools like
+            Mixpanel and Amplitude.
             <br />
           </p>
         </CardSection2TextRight>

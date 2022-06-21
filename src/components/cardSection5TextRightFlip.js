@@ -3,7 +3,7 @@ import AnimationOnScroll from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import "./cardSectionRightFlip.css";
 
-export default function cardSection4TextRightFlip({
+export default function cardSection5TextRightFlip({
   children,
   imgOne,
   imgTwo,
@@ -27,7 +27,7 @@ export default function cardSection4TextRightFlip({
             <div className="flip-card-front">
               <img src={imgOne} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back-quote">{textOne}</div>
+            <div className="flip-card-back-habits">{textOne}</div>
           </div>
         </div>
       </AnimationOnScroll>
@@ -38,7 +38,7 @@ export default function cardSection4TextRightFlip({
             <div className="flip-card-front">
               <img src={imgTwo} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back-quote">{textTwo}</div>
+            <div className="flip-card-back-habits">{textTwo}</div>
           </div>
         </div>
       </AnimationOnScroll>
@@ -49,7 +49,7 @@ export default function cardSection4TextRightFlip({
             <div className="flip-card-front">
               <img src={imgThree} alt="" className="flip-card-img" />
             </div>
-            <div className="flip-card-back-quote">{textThree}</div>
+            <div className="flip-card-back-habits">{textThree}</div>
           </div>
         </div>
       </AnimationOnScroll>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-path/static/css/main.1f6a81fb.css",
-    "main.js": "/my-path/static/js/main.d39aa79d.js",
+    "main.css": "/my-path/static/css/main.a0871334.css",
+    "main.js": "/my-path/static/js/main.115917dc.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/SANew1.jpg": "/my-path/static/media/SANew1.2e25ae15154ae3b8b807.jpg",
@@ -66,15 +66,28 @@
     "static/media/achieve12.svg": "/my-path/static/media/achieve12.1f9cbf04335e43d271c3938cd2ae6271.svg",
     "static/media/achieve4.svg": "/my-path/static/media/achieve4.470f17a25f20993cdda7951ea644cfe8.svg",
     "static/media/achieve10.svg": "/my-path/static/media/achieve10.de0ea89b8489a09226437e5fc3b87281.svg",
+    "static/media/product1.svg": "/my-path/static/media/product1.c792ccaad0cb994f955e9875cc93fb29.svg",
     "static/media/achieve3.svg": "/my-path/static/media/achieve3.514fdda1f9f2fe45074b0039afb9cdc7.svg",
     "static/media/yearly1.svg": "/my-path/static/media/yearly1.033e0b4d7cac6f7be93290f61c950358.svg",
+    "static/media/habit10.svg": "/my-path/static/media/habit10.feddd1b05e5643da158420aba44e1395.svg",
     "static/media/achieve9.svg": "/my-path/static/media/achieve9.0cf0149273c5c836be099150b0fe6f75.svg",
+    "static/media/habit6.svg": "/my-path/static/media/habit6.73eebd637908f853ed78c5326ccf14ee.svg",
     "static/media/achieve2.svg": "/my-path/static/media/achieve2.3461639a132c3c1062af2ce3de563c25.svg",
     "static/media/daily2-01.svg": "/my-path/static/media/daily2-01.f7ca27dee07f03e0f1a0c7028e8016fa.svg",
-    "static/media/leader2.svg": "/my-path/static/media/leader2.ba39588c6dc0fe2a9def7a52412ed64e.svg",
+    "static/media/leader2.svg": "/my-path/static/media/leader2.cda7269c479c316e0aa7d016299dab9b.svg",
+    "static/media/habit4.svg": "/my-path/static/media/habit4.c2aed262b8adc63103c5a6c639c2b596.svg",
     "static/media/leader1.svg": "/my-path/static/media/leader1.cb51ee86398a8bb8fbcadfabca4cee70.svg",
+    "static/media/habit8.svg": "/my-path/static/media/habit8.9e1ad292e876276557e36e1fb692276e.svg",
+    "static/media/habit12.svg": "/my-path/static/media/habit12.7c27363be70fbb5430e0c47948d9f406.svg",
+    "static/media/habit11.svg": "/my-path/static/media/habit11.ff10e93ba73c66446e28ee51d8347910.svg",
+    "static/media/habit5.svg": "/my-path/static/media/habit5.31beb842ecd85a33109640b7f528ffd2.svg",
+    "static/media/habit1.svg": "/my-path/static/media/habit1.4a81fbb8acfab15ca1f492668f930c73.svg",
+    "static/media/habit3.svg": "/my-path/static/media/habit3.2a2f602d2fda37645a11b5dc823aeb94.svg",
+    "static/media/habit9.svg": "/my-path/static/media/habit9.2be128cc7cacb04ffb801fddceb777bd.svg",
     "static/media/leader3.svg": "/my-path/static/media/leader3.58cbadb95723b5f1cd9b0bc11fcecc3b.svg",
+    "static/media/habit7.svg": "/my-path/static/media/habit7.3766f39b511ee61d6ed17360f685746c.svg",
     "static/media/world.svg": "/my-path/static/media/world.f5dbc4081888c923a66cd2ba2f2044a2.svg",
+    "static/media/habit2.svg": "/my-path/static/media/habit2.2174c339c40d5e44956f4f286f46d784.svg",
     "static/media/value.svg": "/my-path/static/media/value.9911d00e6b16b87765acf0dae7551816.svg",
     "static/media/fight.svg": "/my-path/static/media/fight.9c8763a72b3cb877d0b78b59db801aaa.svg",
     "static/media/code.svg": "/my-path/static/media/code.e9b6eb6fe14fa3ff73670d74484a2804.svg",
@@ -85,12 +98,12 @@
     "static/media/arrow.svg": "/my-path/static/media/arrow.f5b83ec246ab359df84b492f54e6ebc2.svg",
     "static/media/arrowUpRight.svg": "/my-path/static/media/arrowUpRight.40d6024d363952ab9d0d81e98b2bc246.svg",
     "index.html": "/my-path/index.html",
-    "main.1f6a81fb.css.map": "/my-path/static/css/main.1f6a81fb.css.map",
-    "main.d39aa79d.js.map": "/my-path/static/js/main.d39aa79d.js.map",
+    "main.a0871334.css.map": "/my-path/static/css/main.a0871334.css.map",
+    "main.115917dc.js.map": "/my-path/static/js/main.115917dc.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f6a81fb.css",
-    "static/js/main.d39aa79d.js"
+    "static/css/main.a0871334.css",
+    "static/js/main.115917dc.js"
   ]
 }

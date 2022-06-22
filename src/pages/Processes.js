@@ -26,6 +26,7 @@ import habit12 from "./../images/habit12.svg";
 
 import product1 from "./../images/product1.svg";
 import product2 from "./../images/product2.jpg";
+import product3 from "./../images/product3.svg";
 
 import Footer from "./../components/footer.js";
 
@@ -278,10 +279,24 @@ export default function Processes() {
             technique has its advantages, but I find interviews to work best at
             sparking the highest level of empathy with the customer. <br />{" "}
             <br />
-            It's a lot of work to talk to customers consistently. Still, one
-            interview weekly is an absolute minimum for everyone on the product
-            team, including engineers.
+            It's a lot of work to talk to customers consistently. The most
+            efficient process I've implemented in the past is using tools like
+            EnjoyHQ or DoveTail to organize and easily search through the
+            research.
             <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={product3}>
+          <p style={{ fontSize: "16px" }}>
+            I get the best insights from opportunity radars, problem
+            prioritization graphs, affinity maps, customer journeys, and service
+            blueprints.
+            <br /> <br />
+            Deep problem understanding gets me closer to appreciating the world
+            around me.
+            <br />
+            <br />I fall in love with the problem first before pondering on the
+            solutions.
           </p>
         </CardSection2TextRight>
       </div>

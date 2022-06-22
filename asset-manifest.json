@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-path/static/css/main.a0871334.css",
-    "main.js": "/my-path/static/js/main.54f7a851.js",
+    "main.js": "/my-path/static/js/main.4fa02ddd.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/SANew1.jpg": "/my-path/static/media/SANew1.2e25ae15154ae3b8b807.jpg",
@@ -38,6 +38,7 @@
     "static/media/clock.jpg": "/my-path/static/media/clock.27a9c2ba472ca26d01fd.jpg",
     "static/media/book7.jpg": "/my-path/static/media/book7.4e158f5449f99d36c5aa.jpg",
     "static/media/courses4.svg": "/my-path/static/media/courses4.e1ca5dd9c39296efa3edf2844b61681a.svg",
+    "static/media/product3.svg": "/my-path/static/media/product3.0f7717570d3b991b063714bb5d30aa63.svg",
     "static/media/courses1.svg": "/my-path/static/media/courses1.198f54332edb13f8147abbd611ce9102.svg",
     "static/media/awards.svg": "/my-path/static/media/awards.c440db99d8b097647e03f87c6c63cca7.svg",
     "static/media/book11.jpg": "/my-path/static/media/book11.062fffa4f7db89b61def.jpg",
@@ -100,11 +101,11 @@
     "static/media/arrowUpRight.svg": "/my-path/static/media/arrowUpRight.40d6024d363952ab9d0d81e98b2bc246.svg",
     "index.html": "/my-path/index.html",
     "main.a0871334.css.map": "/my-path/static/css/main.a0871334.css.map",
-    "main.54f7a851.js.map": "/my-path/static/js/main.54f7a851.js.map",
+    "main.4fa02ddd.js.map": "/my-path/static/js/main.4fa02ddd.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0871334.css",
-    "static/js/main.54f7a851.js"
+    "static/js/main.4fa02ddd.js"
   ]
 }

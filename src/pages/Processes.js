@@ -24,6 +24,8 @@ import habit10 from "./../images/habit10.svg";
 import habit11 from "./../images/habit11.svg";
 import habit12 from "./../images/habit12.svg";
 
+import people1 from "./../images/people1.svg";
+
 import product1 from "./../images/product1.svg";
 import product2 from "./../images/product2.jpg";
 import product3 from "./../images/product3.svg";
@@ -259,18 +261,17 @@ export default function Processes() {
           </p>
         </CardSection5TextRightFlip>
 
-        {/* <h1
+        <h1
           style={{ color: "#1C2327", marginTop: "100px", marginBottom: "32px" }}
         >
           People
         </h1>
-        <CardSection2TextRight imgOne={product1}>
+        <CardSection2TextRight imgOne={people1}>
           <p style={{ fontSize: "16px" }}>
-            The Design T <br /> <br />
-            I've done
-            <br />
+            I use the One Minute Manager's Game Plan in my interactions with direct reports. It's the simplest and most effective way to give feedback regardless of the results. <br /> <br />
+            The trick is to give feedback as soon as possible, focus on the behavior, not on the person, and act with sincerity.
           </p>
-        </CardSection2TextRight> */}
+        </CardSection2TextRight>
 
         <h1
           style={{ color: "#1C2327", marginTop: "100px", marginBottom: "32px" }}
@@ -316,12 +317,9 @@ export default function Processes() {
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={product4}>
           <p style={{ fontSize: "16px" }}>
-            The discovery of new, delightful, and convenient ways to address a
-            problem is the objective of the discovery process.
+            The objective of the discovery phase is to find new, delightful, and convenient ways to address a problem.
             <br /> <br />
-            There are four main questions I ask to validate ideas during the
-            discovery. Is it valuable? Is the design usable? Is the development
-            feasible? Is the offer commercially viable?
+            It's important to ask whether the solution is valuable, usable, feasible, commercially viable, and critical to track key metrics across design iterations.
             <br />
             <br />
           </p>

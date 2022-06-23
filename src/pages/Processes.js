@@ -27,6 +27,8 @@ import habit12 from "./../images/habit12.svg";
 import product1 from "./../images/product1.svg";
 import product2 from "./../images/product2.jpg";
 import product3 from "./../images/product3.svg";
+import product4 from "./../images/product4.svg";
+import product5 from "./../images/product5.svg";
 
 import Footer from "./../components/footer.js";
 
@@ -260,6 +262,19 @@ export default function Processes() {
         <h1
           style={{ color: "#1C2327", marginTop: "100px", marginBottom: "32px" }}
         >
+          People
+        </h1>
+        <CardSection2TextRight imgOne={product1}>
+          <p style={{ fontSize: "16px" }}>
+            The Design T <br /> <br />
+            I've done
+            <br />
+          </p>
+        </CardSection2TextRight>
+
+        <h1
+          style={{ color: "#1C2327", marginTop: "100px", marginBottom: "32px" }}
+        >
           Product
         </h1>
         <CardSection2TextRight imgOne={product1}>
@@ -297,6 +312,30 @@ export default function Processes() {
             <br />
             <br />I fall in love with the problem first before pondering on the
             solutions.
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={product4}>
+          <p style={{ fontSize: "16px" }}>
+            The discovery of new, delightful, and convenient ways to address a
+            problem is the objective of the discovery process.
+            <br /> <br />
+            There are four main questions I ask to validate ideas during the
+            discovery. Is it valuable? Is the design usable? Is the development
+            feasible? Is the offer commercially viable?
+            <br />
+            <br />
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={product5}>
+          <p style={{ fontSize: "16px" }}>
+            The most efficient way to tap into the wisdom of the product team
+            and align design and engineering is through live brainstorming
+            sessions.
+            <br />
+            <br />
+            It's great to get everyone together on a call and keep asking
+            questions until we get a deep collective understanding of the
+            problems we are trying to solve.
           </p>
         </CardSection2TextRight>
       </div>

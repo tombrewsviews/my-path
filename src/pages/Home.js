@@ -105,7 +105,7 @@ export default function Home() {
         <p className="App-title-eng">My Product Lead Path</p>
         <p className="App-title-jap">私の製品リードパス</p>
       </div>
-      <ParticlesBg type="polygon" num={10} bg={true} />
+      <ParticlesBg type="circle" num={5} bg={true} />
     </div>
   );
 }

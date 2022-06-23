@@ -259,7 +259,7 @@ export default function Processes() {
           </p>
         </CardSection5TextRightFlip>
 
-        <h1
+        {/* <h1
           style={{ color: "#1C2327", marginTop: "100px", marginBottom: "32px" }}
         >
           People
@@ -270,7 +270,7 @@ export default function Processes() {
             I've done
             <br />
           </p>
-        </CardSection2TextRight>
+        </CardSection2TextRight> */}
 
         <h1
           style={{ color: "#1C2327", marginTop: "100px", marginBottom: "32px" }}

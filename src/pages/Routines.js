@@ -146,7 +146,7 @@ export default function Routines() {
           <p style={{ fontSize: "16px" }}>
             The reality in the tech space changes quickly. I track how the
             industry evolves and obsess over new excellent products to make sure
-            my product team stays current.
+            my product teams stay up to date.
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={yearly2}>

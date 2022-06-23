@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-path/static/css/main.a0871334.css",
-    "main.js": "/my-path/static/js/main.1144f58b.js",
+    "main.js": "/my-path/static/js/main.70639dfa.js",
     "static/js/787.ecc049cf.chunk.js": "/my-path/static/js/787.ecc049cf.chunk.js",
     "static/media/shield.png": "/my-path/static/media/shield.56fa21bd3f0f9bd9e224.png",
     "static/media/SANew1.jpg": "/my-path/static/media/SANew1.2e25ae15154ae3b8b807.jpg",
@@ -31,6 +31,7 @@
     "static/media/quaterly-okrs.svg": "/my-path/static/media/quaterly-okrs.e6a805831884d806036a26c642273cf7.svg",
     "static/media/book4.jpg": "/my-path/static/media/book4.eb052f58730ae79540a6.jpg",
     "static/media/footerHighlight.svg": "/my-path/static/media/footerHighlight.7faca2ff266bd3bb58b08fc61a8b9d7d.svg",
+    "static/media/people1.svg": "/my-path/static/media/people1.aa520f1c852a41ac54869793c5a2495f.svg",
     "static/media/Calears4.jpg": "/my-path/static/media/Calears4.3414fe44981f64b3ff98.jpg",
     "static/media/book15.jpg": "/my-path/static/media/book15.4065a0f07b6d0083a09d.jpg",
     "static/media/book6.jpg": "/my-path/static/media/book6.6ee6efc822129d730d35.jpg",
@@ -103,11 +104,11 @@
     "static/media/arrowUpRight.svg": "/my-path/static/media/arrowUpRight.40d6024d363952ab9d0d81e98b2bc246.svg",
     "index.html": "/my-path/index.html",
     "main.a0871334.css.map": "/my-path/static/css/main.a0871334.css.map",
-    "main.1144f58b.js.map": "/my-path/static/js/main.1144f58b.js.map",
+    "main.70639dfa.js.map": "/my-path/static/js/main.70639dfa.js.map",
     "787.ecc049cf.chunk.js.map": "/my-path/static/js/787.ecc049cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0871334.css",
-    "static/js/main.1144f58b.js"
+    "static/js/main.70639dfa.js"
   ]
 }

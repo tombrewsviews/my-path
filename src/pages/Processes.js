@@ -26,6 +26,7 @@ import habit12 from "./../images/habit12.svg";
 
 import people1 from "./../images/people1.svg";
 import people2 from "./../images/people2.svg";
+import people3 from "./../images/people3.jpg";
 
 import product1 from "./../images/product1.svg";
 import product2 from "./../images/product2.jpg";
@@ -254,7 +255,7 @@ export default function Processes() {
             "I look for smarts and hearts: ability to learn fast, willingness to work hard, integrity, grit, empathy, and a team-first attitude."
           }
           textThree={
-            "I don't tell people what to do. I offer stories and ask questions to guide them to the best decisions."
+            "I tend not to tell people what to do. I offer stories and ask questions to guide them to the best decisions."
           }
         >
           <p style={{ fontSize: "16px" }}>
@@ -269,13 +270,35 @@ export default function Processes() {
         </h1>
         <CardSection2TextRight imgOne={people1}>
           <p style={{ fontSize: "16px" }}>
-            I use the One Minute Manager's Game Plan in my interactions with direct reports. It's the simplest and most effective way to give feedback regardless of the results. <br /> <br />
-            The trick is to give feedback as soon as possible, focus on the behavior, not on the person, and act with sincerity.
+            I use the One Minute Manager's Game Plan in my interactions with
+            direct reports. It's the simplest and most effective way to give
+            feedback regardless of the results. <br /> <br />
+            The trick is to give feedback as soon as possible, focus on the
+            behavior, not on the person, and act with sincerity.
           </p>
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={people2}>
           <p style={{ fontSize: "16px" }}>
-            I use</p>
+            I regularly ask people I closely work with for feedback.
+            <br />
+            <br />
+            Those feedback sessions are scheduled as one-2-one calls where I ask
+            for frank opinions on my work and attitude. The only rule is for me
+            to accept the criticism without excussions. <br />
+            <br />I record each session to list future improvements based on my
+            teammate's insights and follow up with an action plan.
+          </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={people3}>
+          <p style={{ fontSize: "16px" }}>
+            On top of the feedback loops, I work on my personality weaknesses. I
+            take tests every six months and track my progress.
+            <br />
+            <br />
+            I've learned much about myself since I've started paying more
+            attention to what other people think of me and my work. Not all
+            feedback is precious, but it's good to hear people out.
+          </p>
         </CardSection2TextRight>
 
         <h1
@@ -322,9 +345,12 @@ export default function Processes() {
         </CardSection2TextRight>
         <CardSection2TextRight imgOne={product4}>
           <p style={{ fontSize: "16px" }}>
-            The objective of the discovery phase is to find new, delightful, and convenient ways to address a problem.
+            The objective of the discovery phase is to find new, delightful, and
+            convenient ways to address a problem.
             <br /> <br />
-            It's important to ask whether the solution is valuable, usable, feasible, commercially viable, and critical to track key metrics across design iterations.
+            It's important to ask whether the solution is valuable, usable,
+            feasible, commercially viable, and critical to track key metrics
+            across design iterations.
             <br />
             <br />
           </p>

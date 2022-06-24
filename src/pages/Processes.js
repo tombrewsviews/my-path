@@ -25,6 +25,7 @@ import habit11 from "./../images/habit11.svg";
 import habit12 from "./../images/habit12.svg";
 
 import people1 from "./../images/people1.svg";
+import people2 from "./../images/people2.svg";
 
 import product1 from "./../images/product1.svg";
 import product2 from "./../images/product2.jpg";
@@ -271,6 +272,10 @@ export default function Processes() {
             I use the One Minute Manager's Game Plan in my interactions with direct reports. It's the simplest and most effective way to give feedback regardless of the results. <br /> <br />
             The trick is to give feedback as soon as possible, focus on the behavior, not on the person, and act with sincerity.
           </p>
+        </CardSection2TextRight>
+        <CardSection2TextRight imgOne={people2}>
+          <p style={{ fontSize: "16px" }}>
+            I use</p>
         </CardSection2TextRight>
 
         <h1
